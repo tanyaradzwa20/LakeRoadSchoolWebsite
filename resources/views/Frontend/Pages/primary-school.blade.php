@@ -14,7 +14,7 @@
             <div class="row g-lg-0 g-5 align-items-center">
                 <div class="col-lg-6">
                     <div class="sc__about__image">
-                        <img src="{{asset('assets/images/about/about_sc.webp" alt="">
+                        <img src="{{asset('assets/images/about/about_sc.webp')}}" alt="">
                     </div>
                 </div>
                 <div class="col-lg-6">
@@ -98,7 +98,7 @@
                 </div>
                 <div class="col-xl-5 col-lg-6 offset-xl-1">
                     <div class="subject__right__section">
-                        <img src="{{asset('assets/images/about/subject_sc.webp" alt="">
+                        <img src="{{asset('assets/images/about/subject_sc.webp')}}" alt="">
                     </div>
                 </div>
             </div>
@@ -146,7 +146,7 @@
 
                     </div>
                     <div class="image__section">
-                        <img src="{{asset('assets/images/about/what_offer.webp" alt="">
+                        <img src="{{asset('assets/images/about/what_offer.webp')}}" alt="">
                     </div>
                 </div>
             </div>
@@ -478,7 +478,7 @@
             <div class="row g-0">
                 <div class="col-lg-6">
                     <div class="event__card__image">
-                        <img src="{{asset('assets/images/about/about-3.webp" alt="">
+                        <img src="{{asset('assets/images/about/about-3.webp')}}" alt="">
                     </div>
                 </div>
                 <div class="col-lg-6">

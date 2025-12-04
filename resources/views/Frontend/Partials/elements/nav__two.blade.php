@@ -9,6 +9,10 @@
                     <li><a href="{{ route('index-three') }}">Home Style three</a></li>
                     <li><a href="{{ route('index-four') }}">Home Style four</a></li>
                     <li><a href="{{ route('index-five') }}">Home Style five</a></li>
+                    <li><a href="{{ route('index-sc') }}">Home School & College</a></li>
+                    <li><a href="{{ route('primary-school') }}">Primary School</a></li>
+                    <li><a href="{{ route('middle-school') }}">Middle School</a></li>
+                    <li><a href="{{ route('senior-school') }}">Senior School</a></li>
                 </ul>
             </li>
 

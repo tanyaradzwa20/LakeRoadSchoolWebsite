@@ -24,7 +24,7 @@
                 <div class="rts-blog-post blog-v-full sc__version">
                     <div class="single-blog-post">
                         <a href="{{ route('blog-details') }}" class="blog-thumb">
-                            <img src="{{asset('assets/images/blog/scb-1.webp" alt="blog-thumb">
+                            <img src="{{asset('assets/images/blog/scb-1.webp')}}" alt="blog-thumb">
                         </a>
                         <div class="blog-content">
                             <a href="#" class="category_link">Global Politics</a>
@@ -49,7 +49,7 @@
                     <div class="single-blog-post">
                         <div class="blog-thumb">
                             <a href="{{ route('blog-details') }}">
-                                <img src="{{asset('assets/images/blog/scb-2.webp" alt="post-thumbnail">
+                                <img src="{{asset('assets/images/blog/scb-2.webp')}}" alt="post-thumbnail">
                             </a>
                         </div>
                         <div class="blog-content">
@@ -71,7 +71,7 @@
                     <div class="single-blog-post">
                         <div class="blog-thumb">
                             <a href="{{ route('blog-details') }}">
-                                <img src="{{asset('assets/images/blog/scb-3.webp" alt="post-thumbnail">
+                                <img src="{{asset('assets/images/blog/scb-3.webp')}}" alt="post-thumbnail">
                             </a>
                         </div>
                         <div class="blog-content">

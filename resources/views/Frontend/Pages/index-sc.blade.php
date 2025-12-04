@@ -20,7 +20,7 @@
                 <!-- single slider -->
                 <div class="swiper-slide">
                     <div class="rts-slider-height rts-slider-overlay rt-relative ">
-                        <div class="rts-slider-bg" data-bgimage="url({{asset('assets/images/banner/sc-1.webp)"></div>
+                        <div class="rts-slider-bg" data-bgimage="url({{asset('assets/images/banner/sc-1.webp')}})"></div>
                         <div class="container">
                             <div class="row justify-content-center">
                                 <div class="col-lg-10 col-xl-10 col-md-10 col-sm-12">
@@ -46,7 +46,7 @@
                 <!-- single slider -->
                 <div class="swiper-slide">
                     <div class="rts-slider-height rts-slider-overlay rt-relative ">
-                        <div class="rts-slider-bg" data-bgimage="url({{asset('assets/images/banner/sc-2.webp)"></div>
+                        <div class="rts-slider-bg" data-bgimage="url({{asset('assets/images/banner/sc-2.webp')}})"></div>
                         <div class="container">
                             <div class="row justify-content-center">
                                 <div class="col-lg-10 col-xl-10 col-md-10 col-sm-12">
@@ -95,8 +95,8 @@
                 </div>
                 <div class="col-lg-6">
                     <div class="rts__about--img">
-                       <img src="{{asset('assets/images/about/about-1.webp" alt="">
-                       <img src="{{asset('assets/images/about/about-2.webp" alt="">
+                       <img src="{{asset('assets/images/about/about-1.webp')}}" alt="">
+                       <img src="{{asset('assets/images/about/about-2.webp')}}" alt="">
                     </div>
                 </div>
             </div>
@@ -158,7 +158,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="academy__single">
                         <div class="academy__single__thumb">
-                            <img src="{{asset('assets/images/academy/academy-1.webp" alt="">
+                            <img src="{{asset('assets/images/academy/academy-1.webp')}}" alt="">
                         </div>
                         <div class="academy__single__meta">
                             <a href="#">
@@ -173,7 +173,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="academy__single">
                         <div class="academy__single__thumb">
-                            <img src="{{asset('assets/images/academy/academy-2.webp" alt="">
+                            <img src="{{asset('assets/images/academy/academy-2.webp')}}" alt="">
                         </div>
                         <div class="academy__single__meta">
                             <a href="#">
@@ -188,7 +188,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="academy__single">
                         <div class="academy__single__thumb">
-                            <img src="{{asset('assets/images/academy/academy-3.webp" alt="">
+                            <img src="{{asset('assets/images/academy/academy-3.webp')}}" alt="">
                         </div>
                         <div class="academy__single__meta">
                             <a href="#">
@@ -324,7 +324,7 @@
             <div class="row justify-content-md-center">
                 <div class="col-md-11 col-lg-6 col-xl-7">
                     <div class="rts-admission-form-image">
-                        <img src="{{asset('assets/images/admission.webp" alt="">
+                        <img src="{{asset('assets/images/admission.webp')}}" alt="">
                     </div>
                     <div class="rts-section-big-text sc">
                         Admission Now
@@ -419,8 +419,8 @@
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
                             <div class="single-gallery">
-                                <a href="{{asset('assets/images/campus/gallery/01.webp" class="single-gallery__item">
-                                    <img src="{{asset('assets/images/campus/gallery/01.webp" alt="gallery">
+                                <a href="{{asset('assets/images/campus/gallery/01.webp')}}" class="single-gallery__item">
+                                    <img src="{{asset('assets/images/campus/gallery/01.webp')}}" alt="gallery">
                                     <div class="single-gallery__icon">
                                         <i class="fa-light fa-circle-plus"></i>
                                     </div>
@@ -429,8 +429,8 @@
                         </div>
                         <div class="swiper-slide">
                             <div class="single-gallery">
-                                <a href="{{asset('assets/images/campus/gallery/02.webp" class="single-gallery__item">
-                                    <img src="{{asset('assets/images/campus/gallery/02.webp" alt="gallery">
+                                <a href="{{asset('assets/images/campus/gallery/02.webp')}}" class="single-gallery__item">
+                                    <img src="{{asset('assets/images/campus/gallery/02.webp')}}" alt="gallery">
                                     <div class="single-gallery__icon">
                                         <i class="fa-light fa-circle-plus"></i>
                                     </div>
@@ -439,8 +439,8 @@
                         </div>
                         <div class="swiper-slide">
                             <div class="single-gallery">
-                                <a href="{{asset('assets/images/campus/gallery/03.webp" class="single-gallery__item">
-                                    <img src="{{asset('assets/images/campus/gallery/03.webp" alt="gallery">
+                                <a href="{{asset('assets/images/campus/gallery/03.webp')}}" class="single-gallery__item">
+                                    <img src="{{asset('assets/images/campus/gallery/03.webp')}}" alt="gallery">
                                     <div class="single-gallery__icon">
                                         <i class="fa-light fa-circle-plus"></i>
                                     </div>
@@ -449,8 +449,8 @@
                         </div>
                         <div class="swiper-slide">
                             <div class="single-gallery">
-                                <a href="{{asset('assets/images/campus/gallery/04.webp" class="single-gallery__item">
-                                    <img src="{{asset('assets/images/campus/gallery/04.webp" alt="gallery">
+                                <a href="{{asset('assets/images/campus/gallery/04.webp')}}" class="single-gallery__item">
+                                    <img src="{{asset('assets/images/campus/gallery/04.webp')}}" alt="gallery">
                                     <div class="single-gallery__icon">
                                         <i class="fa-light fa-circle-plus"></i>
                                     </div>
