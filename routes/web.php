@@ -14,7 +14,7 @@ use App\Http\Controllers\PageController;
 |
 */
 Route::controller(PageController::class)->group(function (){
-    Route::get('/', 'index')->name('index');
+    Route::get('/', 'indexSc')->name('index');
     Route::get('index-two', 'indexTwo')->name('index-two');
     Route::get('index-three', 'indexThree')->name('index-three');
     Route::get('index-four', 'indexFour')->name('index-four');

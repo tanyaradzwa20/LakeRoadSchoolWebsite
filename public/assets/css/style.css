@@ -16429,10 +16429,14 @@ body.index-sc h1, body.index-sc h2, body.index-sc h3, body.index-sc h4, body.ind
   display: flex;
 }
 .rts__header__wrapper .rts__logo {
-  background: var(--primary-color);
+  background: #ffffff;
   padding: 12px 32px;
   display: flex;
   align-items: center;
+}
+.rts__header__wrapper .rts__logo img {
+  max-height: 160px;
+  width: auto;
 }
 .rts__header__wrapper .header__content {
   width: 100%;
@@ -25365,6 +25369,20 @@ body.index-sc h1, body.index-sc h2, body.index-sc h3, body.index-sc h4, body.ind
 }
 .footer__widget--logo {
   margin-bottom: 50px;
+  background: white;
+  text-align: center;
+  padding: 30px;
+  width: auto;
+  height: 150px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer__widget--logo img {
+  max-height: 130px;
+  width: auto;
+  object-fit: contain;
 }
 .footer__widget--description {
   max-width: 320px;
@@ -25490,7 +25508,7 @@ body.index-sc h1, body.index-sc h2, body.index-sc h3, body.index-sc h4, body.ind
 }
 
 .x__slider {
-  background: #000;
+  background: #ab0101;
 }
 .x__slider .rts__slider--arrow .slider__btn {
   height: 40px;
@@ -25518,33 +25536,18 @@ body.index-sc h1, body.index-sc h2, body.index-sc h3, body.index-sc h4, body.ind
 .subscription__form {
   position: relative;
   z-index: 1;
-  width: 485px;
-  padding-left: 40px;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 30px 40px;
+  text-align: center;
 }
 @media screen and (max-width: 1200px) {
   .subscription__form {
-    width: 100%;
+    max-width: 100%;
+    padding: 30px 20px;
   }
 }
-.subscription__form::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  width: 200%;
-  height: 100%;
-  z-index: -1;
-  background-color: var(--primary-color);
-}
-@media screen and (max-width: 992px) {
-  .subscription__form::before {
-    left: -20px;
-  }
-}
+/* .subscription__form::before removed - using .x__slider background instead */
 .subscription__form .subscription__form--title {
   color: var(--rt-white);
   margin-bottom: 20px;
@@ -26080,3 +26083,11 @@ body.index-sc h1, body.index-sc h2, body.index-sc h3, body.index-sc h4, body.ind
   top: 0;
 }
 /*# sourceMappingURL=../maps/style.css.map */
+
+/* Prevent word breaking in section titles */
+.rts__section--title {
+  word-break: normal;
+  overflow-wrap: normal;
+  hyphens: none;
+  white-space: normal;
+}

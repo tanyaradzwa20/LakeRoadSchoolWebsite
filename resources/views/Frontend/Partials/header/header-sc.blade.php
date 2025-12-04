@@ -5,22 +5,19 @@
                     <div class="rts__header__wrapper">
                          <div class="rts__logo">
                               <a href="{{ route('index-sc') }}" class="rts__logo--link">
-                                   <img src="{{asset('assets/images/logo/logo-sc.svg')}}" alt="Unipix School">
+                                   <img src="{{asset('assets/images/logo/lake-road-school-logo.jpg')}}" alt="Lake Road School">
                               </a>
                          </div>
                          <div class="header__content">
                               <div class="header__content__top">
                                    <div class="header__content__top__left">
-                                        <a href="#"><i class="fa-classic fa-light fa-location-dot"></i> 2702 Memory Lane, Chicago, IL 60605</a>
+                                        <a href="#"><i class="fa-classic fa-light fa-location-dot"></i> Corner of Lake Road & Leopards Hill Road, Woodlands, Lusaka, Zambia</a>
                                    </div>
                                    <div class="header__content__top__right">
                                         <div class="follow_us">
-                                             <span>Follow Us-</span>
+                                             <span>Like Us On Facebook-</span>
                                              <div>
-                                                  <a href="#"><i class="fa-brands fa-facebook"></i></a>
-                                                  <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                                                  <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-                                                  <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                                                  <a href="https://www.facebook.com/LRPTAS" target="_blank"><i class="fa-brands fa-facebook"></i></a>
                                              </div>
                                         </div>
                                         <div class="header__right--item">

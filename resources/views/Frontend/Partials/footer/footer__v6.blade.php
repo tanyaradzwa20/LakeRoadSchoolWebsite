@@ -3,7 +3,8 @@
 <div class="x__slider">
     <div class="container">
         <div class="row">
-            <div class="col-lg-7 col-xxl-9 col-xl-7 d-flex align-items-center">
+            <!-- Carousel commented out -->
+            <!-- <div class="col-lg-7 col-xxl-9 col-xl-7 d-flex align-items-center">
                 <div class="x__slider__active overflow-hidden">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
@@ -19,11 +20,11 @@
                         <div class="rts__next slider__btn"><i class="fa-light fa-arrow-right"></i></div>
                     </div>
                 </div>
-            </div>
-            <div class="col-lg-5 col-xl-5 col-xxl-3">
+            </div> -->
+            <div class="col-lg-12">
                 <div class="subscription__form">
-                    <h5 class="subscription__form--title">Subscribe to  newsletter</h5>
-                    
+                    <h5 class="subscription__form--title">Subscribe to newsletter</h5>
+
                     <form action="#">
                         <input type="email" placeholder="Enter your email address" required>
                         <button type="submit" class="cta__button">Subscribe <span><i class="fa-regular fa-arrow-right"></i></span></button>
@@ -40,18 +41,20 @@
             <div class="col-lg-4 col-md-6 col-sm-6">
                 <div class="footer__widget">
                     <div class="footer__widget--logo">
-                        <a href="index"><img src="{{asset('assets/images/logo/logo__white.svg')}}" alt="logo"></a>
+                        <a href="index"><img src="{{asset('assets/images/logo/lake-road-school-logo.jpg')}}" alt="Lake Road School"></a>
                     </div>
                     <p class="footer__widget--description">
-                        We are passionate education dedicated to providing high-quality resources learners
-                        all backgrounds.
+                        A perfect place for the education of any child. We are passionate about education and dedicated to providing high-quality learning for all students.
                     </p>
+                    <div class="footer__widget--contact">
+                        <p><i class="fa-light fa-location-dot"></i> Corner of Lake Road & Leopards Hill Road, opposite Urban Hotel & Crossroad Shopping Mall, Woodlands, Lusaka, Zambia</p>
+                        <p><i class="fa-light fa-phone"></i> <a href="tel:+260965198924">+260 965198924</a></p>
+                        <p><i class="fa-light fa-envelope"></i> <a href="mailto:lakeroad@lrptas.ac.zm">lakeroad@lrptas.ac.zm</a></p>
+                        <p><i class="fa-light fa-globe"></i> <a href="https://lrptas.ac.zm" target="_blank">lrptas.ac.zm</a></p>
+                    </div>
                     <div class="footer__widget--social">
                         <ul class="social">
-                            <li class="social__link"><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
-                            <li class="social__link"><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                            <li class="social__link"><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
-                            <li class="social__link"><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                            <li class="social__link"><a href="https://www.facebook.com/LRPTAS" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
                         </ul>
                     </div>
                 </div>
@@ -104,7 +107,7 @@
         <div class="row">
             <div class="col-sm-12">
                 <div class="copyright__wrapper">
-                    <p>Copyright &copy; {{ date('Y') }} All Rights Reserved by <a href="#">Unipix</a></p>
+                    <p>Copyright &copy; {{ date('Y') }} All Rights Reserved</p>
                 </div>
             </div>
         </div>

@@ -20,18 +20,18 @@
                 <!-- single slider -->
                 <div class="swiper-slide">
                     <div class="rts-slider-height rts-slider-overlay rt-relative ">
-                        <div class="rts-slider-bg" data-bgimage="url({{asset('assets/images/banner/sc-1.webp')}})"></div>
+                        <div class="rts-slider-bg" data-bgimage="url({{asset('assets/images/banner/hero1.jpg')}})"></div>
                         <div class="container">
                             <div class="row justify-content-center">
                                 <div class="col-lg-10 col-xl-10 col-md-10 col-sm-12">
                                     <div class="rts-slider">
                                         <div class="rts-slider-content">
-                                            <h6 class="rts-subtitle"><img src="{{asset('assets/images/icon/e-cap.svg')}}" alt="education hat"> knowledge meets innovation</h6>
+                                            <h6 class="rts-subtitle"><img src="{{asset('assets/images/icon/e-cap.svg')}}" alt="education hat"> A perfect place for the education of any child</h6>
                                             <h1 class="rts-slider-title">
-                                                Explore Your Future at Of Unipix
+                                                Welcome to Lake Road PTA School
                                             </h1>
                                             <p class="rts-slider-desc">
-                                                Remember to tailor the section names to fit the specific needs and structure.
+                                                Providing quality education and fostering excellence in every child. A perfect place for the education of any child.
                                             </p>
                                             <div class="rts-slider-btn">
                                                 <a href="{{ route('primary-school') }}" class="rts-theme-btn btn-arrow">View Our Program <span><i class="fa-thin fa-arrow-right"></i></span></a>
@@ -46,18 +46,44 @@
                 <!-- single slider -->
                 <div class="swiper-slide">
                     <div class="rts-slider-height rts-slider-overlay rt-relative ">
-                        <div class="rts-slider-bg" data-bgimage="url({{asset('assets/images/banner/sc-2.webp')}})"></div>
+                        <div class="rts-slider-bg" data-bgimage="url({{asset('assets/images/banner/hero2.jpg')}})"></div>
                         <div class="container">
                             <div class="row justify-content-center">
                                 <div class="col-lg-10 col-xl-10 col-md-10 col-sm-12">
                                     <div class="rts-slider">
                                         <div class="rts-slider-content">
-                                            <h6 class="rts-subtitle"><img src="{{asset('assets/images/icon/e-cap.svg')}}" alt="education hat"> knowledge meets innovation</h6>
+                                            <h6 class="rts-subtitle"><img src="{{asset('assets/images/icon/e-cap.svg')}}" alt="education hat"> A perfect place for the education of any child</h6>
                                             <h1 class="rts-slider-title">
-                                                Explore Your Future at Of Unipix
+                                                Welcome to Lake Road PTA School
                                             </h1>
                                             <p class="rts-slider-desc">
-                                                Remember to tailor the section names to fit the specific needs and structure.
+                                                Providing quality education and fostering excellence in every child. A perfect place for the education of any child.
+                                            </p>
+                                            <div class="rts-slider-btn">
+                                                <a href="{{ route('primary-school') }}" class="rts-theme-btn btn-arrow">View Our Program <span><i class="fa-thin fa-arrow-right"></i></span></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- single slider -->
+                <div class="swiper-slide">
+                    <div class="rts-slider-height rts-slider-overlay rt-relative ">
+                        <div class="rts-slider-bg" data-bgimage="url({{asset('assets/images/banner/hero3.jpg')}})"></div>
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-10 col-xl-10 col-md-10 col-sm-12">
+                                    <div class="rts-slider">
+                                        <div class="rts-slider-content">
+                                            <h6 class="rts-subtitle"><img src="{{asset('assets/images/icon/e-cap.svg')}}" alt="education hat"> A perfect place for the education of any child</h6>
+                                            <h1 class="rts-slider-title">
+                                                Welcome to Lake Road PTA School
+                                            </h1>
+                                            <p class="rts-slider-desc">
+                                                Providing quality education and fostering excellence in every child. A perfect place for the education of any child.
                                             </p>
                                             <div class="rts-slider-btn">
                                                 <a href="{{ route('primary-school') }}" class="rts-theme-btn btn-arrow">View Our Program <span><i class="fa-thin fa-arrow-right"></i></span></a>
@@ -81,22 +107,25 @@
                 <div class="col-lg-6">
                     <div class="rts__section--wrapper sc">
                         <h6 class="rts__section--subheading">
-                            <img src="{{asset('assets/images/icon/about-sc.svg')}}" alt=""> about
+                            <img src="{{asset('assets/images/icon/about-sc.svg')}}" alt=""> Welcome
                         </h6>
                         <h2 class="rts__section--title mb-0">
-                            About Our <br> unipix School
+                            Welcome to Lake Road <br> PTA School
                         </h2>
                         <p>
-                            At School Unipix, we believe in the transformative power of education and the boundless potential within every individual. Established in 1971, we have been dedicated to fostering intellectual curiosity, academic excellence, and a vibrant campus community.
+                            Welcome to our community of Parents, Teachers and Learners! We are situated at the junction of Leopards Hill Road and Lake Road, in Woodlands Area of Lusaka, Zambia. Lake Road PTA School is a Self-Managing and non-profit making institution run by the Parent and Teachers Association (PTA) Board of Governors.
                         </p>
-                        <a href="{{ route('primary-school') }}" class="rts-nbg-btn btn-arrow">School Overview<span><i class="fa-sharp fa-regular fa-arrow-right"></i>
+                        <p>
+                            The School is the educational home to 840 pupils from nursery through to the twelfth grade and 95 staff members. Our website gives you a glimpse of the daily life at Lake Road PTA School.
+                        </p>
+                        <a href="{{ route('primary-school') }}" class="rts-nbg-btn btn-arrow">Learn More<span><i class="fa-sharp fa-regular fa-arrow-right"></i>
                         </span></a>
                     </div>
                 </div>
                 <div class="col-lg-6">
                     <div class="rts__about--img">
-                       <img src="{{asset('assets/images/about/about-1.webp')}}" alt="">
-                       <img src="{{asset('assets/images/about/about-2.webp')}}" alt="">
+                       <img src="{{asset('assets/images/about/about-1.png')}}" alt="Lake Road PTA School">
+                       <img src="{{asset('assets/images/about/about-2.jpg')}}" alt="Lake Road PTA School">
                     </div>
                 </div>
             </div>
@@ -107,23 +136,23 @@
                     <div class="rts-funfact-wrapper">
                         <div class="single-cta-item">
                             <img src="{{asset('assets/images/icon/student.svg')}}" alt="">
-                            <h2 class="single-cta-item__title">20,000</h2>
-                            <p>Students Graduated</p>
-                        </div>
-                        <div class="single-cta-item">
-                            <img src="{{asset('assets/images/icon/class.svg')}}" alt="">
-                            <h2 class="single-cta-item__title">40</h2>
-                            <p>Classes</p>
+                            <h2 class="single-cta-item__title">840</h2>
+                            <p>Current Students</p>
                         </div>
                         <div class="single-cta-item">
                             <img src="{{asset('assets/images/icon/teacher.svg')}}" alt="">
-                            <h2 class="single-cta-item__title">120</h2>
-                            <p>Teachers</p>
+                            <h2 class="single-cta-item__title">95</h2>
+                            <p>Staff Members</p>
                         </div>
                         <div class="single-cta-item">
-                            <img src="{{asset('assets/images/icon/current-st.svg')}}" alt="">
-                            <h2 class="single-cta-item__title">1230</h2>
-                            <p>Current Students</p>
+                            <img src="{{asset('assets/images/icon/class.svg')}}" alt="">
+                            <h2 class="single-cta-item__title">13</h2>
+                            <p>Grade Levels</p>
+                        </div>
+                        <div class="single-cta-item">
+                            <img src="{{asset('assets/images/icon/e-cap.svg')}}" alt="">
+                            <h2 class="single-cta-item__title">Top 10</h2>
+                            <p>National Ranking</p>
                         </div>
                     </div>
                 </div>
@@ -139,29 +168,29 @@
                 <div class="rts__section--wrapper sc white">
                     <div class="rts__section--wrapper--left">
                         <h6 class="rts__section--subheading">
-                            <img src="{{asset('assets/images/icon/e-cap.svg')}}" alt=""> Academics 
+                            <img src="{{asset('assets/images/icon/e-cap.svg')}}" alt=""> Academic Excellence
                         </h6>
-                        <h2 class="rts__section--title">Academics at Unipix </h2>
+                        <h2 class="rts__section--title">Education for Empowerment</h2>
                     </div>
                     <div class="rts__section--details">
                         <p class="rts__description">
-                            We work with schools, colleges and community organisations, from primary through to A-Level education. This forms part of Imperial's widening  participation and outreach agenda.
+                            Lake Road PTA School is known for its academic excellence. Our pupils have been top-performers in the national examinations at Grade 7, 9 and 12. The national examination ratings have placed our school among the top 10 in the country. We offer a rich educational experience that combines academic, social, artistic, athletic and extra-curricular elements to help each child develop to his or her fullest potential.
                         </p>
                     </div>
                 </div>
             </div>
 
             <!-- academy -->
-            <div class="row g-5">
+            <div class="row g-5 justify-content-center">
 
                 <!-- single item -->
                 <div class="col-lg-4 col-md-6">
                     <div class="academy__single">
                         <div class="academy__single__thumb">
-                            <img src="{{asset('assets/images/academy/academy-1.webp')}}" alt="">
+                            <img src="{{asset('assets/images/academy/primary-students-lake-road-school.jpg')}}" alt="Primary Students at Lake Road PTA School">
                         </div>
                         <div class="academy__single__meta">
-                            <a href="#">
+                            <a href="{{ route('primary-school') }}">
                                 <h4 class="academy__single__title">Primary Student</h4>
                             </a>
                             <p class="academy__single__description">Explore the engaging events and activities we offer for children.</p>
@@ -173,10 +202,10 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="academy__single">
                         <div class="academy__single__thumb">
-                            <img src="{{asset('assets/images/academy/academy-2.webp')}}" alt="">
+                            <img src="{{asset('assets/images/academy/secondary-students-lake-road-school.jpg')}}" alt="Secondary Students at Lake Road PTA School">
                         </div>
                         <div class="academy__single__meta">
-                            <a href="#">
+                            <a href="{{ route('senior-school') }}">
                                 <h4 class="academy__single__title">Secondary Student</h4>
                             </a>
                             <p class="academy__single__description">Explore the engaging events and activities we offer for children.</p>
@@ -184,20 +213,20 @@
                     </div>
                 </div>
                 <!-- single item -->
-                <!-- single item -->
-                <div class="col-lg-4 col-md-6">
+                <!-- Explore Lake Road PTA School - Commented Out -->
+                <!-- <div class="col-lg-4 col-md-6">
                     <div class="academy__single">
                         <div class="academy__single__thumb">
                             <img src="{{asset('assets/images/academy/academy-3.webp')}}" alt="">
                         </div>
                         <div class="academy__single__meta">
                             <a href="#">
-                                <h4 class="academy__single__title">Explore Unipix</h4>
+                                <h4 class="academy__single__title">Explore Lake Road PTA School</h4>
                             </a>
                             <p class="academy__single__description">Explore the engaging events and activities we offer for children.</p>
                         </div>
                     </div>
-                </div>
+                </div> -->
                 <!-- single item -->
 
             </div>
@@ -214,10 +243,10 @@
                         <h6 class="rts__section--subheading">
                             <img src="{{asset('assets/images/icon/about-sc.svg')}}" alt=""> Teacher
                         </h6>
-                        <h2 class="rts__section--title text-capitalize mb-0">University Professors</h2>
+                        <h2 class="rts__section--title text-capitalize mb-0">The School Management Structure</h2>
                     </div>
                     <div class="rts__section--link">
-                        <a href="#" class="rts-nbg-btn btn-arrow">Find More Professor<span><i class="fa-sharp fa-regular fa-arrow-right"></i>
+                        <a href="#" class="rts-nbg-btn btn-arrow">View All Staff<span><i class="fa-sharp fa-regular fa-arrow-right"></i>
                         </span></a>
                     </div>
                 </div>
@@ -229,15 +258,15 @@
                     <div class="rts__single--member">
                         <div class="rts__single--member--thumb rounded-10">
                             <a href="#">
-                                <img src="{{asset('assets/images/speaker/teacher__1.jpg')}}" alt="">
+                                <img src="{{asset('assets/images/speaker/chilando-chella-school-manager.jpg')}}" alt="Mr. Chilando Chella - School Manager">
                             </a>
                         </div>
                         <div class="rts__single--member--meta">
                             <h5 class="rts__single--member--meta--title">
-                                <a href="#">C. Hannah Ueno</a>
+                                <a href="#">Mr. Chilando Chella</a>
                             </h5>
                             <span class="rts__single--member--meta--designation">
-                                Assistant Professor
+                                School Manager
                             </span>
                         </div>
                     </div>
@@ -248,15 +277,15 @@
                     <div class="rts__single--member">
                         <div class="rts__single--member--thumb rounded-10">
                             <a href="#">
-                                <img src="{{asset('assets/images/speaker/teacher__2.jpg')}}" alt="">
+                                <img src="{{asset('assets/images/speaker/esther-mukando-head-teacher-primary.jpg')}}" alt="Mrs. Esther Mukando - Head Teacher Primary School">
                             </a>
                         </div>
                         <div class="rts__single--member--meta">
                             <h5 class="rts__single--member--meta--title">
-                                <a href="#">Thomas Fred</a>
+                                <a href="#">Mrs. Esther Mukando</a>
                             </h5>
                             <span class="rts__single--member--meta--designation">
-                                Associate Professor of History
+                                Head Teacher<br>Primary School
                             </span>
                         </div>
                     </div>
@@ -267,15 +296,15 @@
                     <div class="rts__single--member">
                         <div class="rts__single--member--thumb rounded-10">
                             <a href="#">
-                                <img src="{{asset('assets/images/speaker/teacher__3.jpg')}}" alt="">
+                                <img src="{{asset('assets/images/speaker/dimuna-michelo-head-teacher-secondary.jpg')}}" alt="Mrs. Dimuna Michelo - Head Teacher Secondary School">
                             </a>
                         </div>
                         <div class="rts__single--member--meta">
                             <h5 class="rts__single--member--meta--title">
-                                <a href="#">Jennifer Aarons</a>
+                                <a href="#">Mrs. Dimuna Michelo</a>
                             </h5>
                             <span class="rts__single--member--meta--designation">
-                                Professor of Art
+                                Head Teacher<br>Secondary School
                             </span>
                         </div>
                     </div>
@@ -286,15 +315,15 @@
                     <div class="rts__single--member">
                         <div class="rts__single--member--thumb rounded-10">
                             <a href="#">
-                                <img src="{{asset('assets/images/speaker/teacher__4.jpg')}}" alt="">
+                                <img src="{{asset('assets/images/speaker/nswana-koloko-school-accountant.png')}}" alt="Mr. Nswana Koloko - School Accountant">
                             </a>
                         </div>
                         <div class="rts__single--member--meta">
                             <h5 class="rts__single--member--meta--title">
-                                <a href="#">Michael McGarvey</a>
+                                <a href="#">Mr. Nswana Koloko</a>
                             </h5>
                             <span class="rts__single--member--meta--designation">
-                                Professor of Literature
+                                School Accountant
                             </span>
                         </div>
                     </div>
@@ -316,7 +345,7 @@
                             <img src="{{asset('assets/images/icon/about-sc.svg')}}" alt=""> Registration
                         </h6>
                         <h2 class="rts__section--title">Apply for Admission</h2>
-                        <p class="rts__section--description w-100 mx-auto mb-0">Welcome to the gateway of possibilities your admission to Unipix University. At Unipix, we understand.</p>
+                        <p class="rts__section--description w-100 mx-auto mb-0">We look forward to getting to know you and to learning how we can serve you and your family. If you have any questions or would like to tour the School, please contact us at +260 211 263901.</p>
                     </div>
                 </div>
             </div>
@@ -324,7 +353,7 @@
             <div class="row justify-content-md-center">
                 <div class="col-md-11 col-lg-6 col-xl-7">
                     <div class="rts-admission-form-image">
-                        <img src="{{asset('assets/images/admission.webp')}}" alt="">
+                        <img src="{{asset('assets/images/admission.png')}}" alt="Lake Road PTA School Admission">
                     </div>
                     <div class="rts-section-big-text sc">
                         Admission Now
@@ -406,7 +435,7 @@
                         <h6 class="rts__section--subheading">
                             <img src="{{asset('assets/images/icon/about-sc.svg')}}" alt=""> Gallery
                         </h6>
-                        <h2 class="rts__section--title text-capitalize mb-0">University Reunion Gallery</h2>
+                        <h2 class="rts__section--title text-capitalize mb-0">School Gallery</h2>
                     </div>
                     <div class="rts__section--link">
                         <a href="#" class="rts-nbg-btn btn-arrow">View All Gallery<span><i class="fa-sharp fa-regular fa-arrow-right"></i>
@@ -419,8 +448,8 @@
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
                             <div class="single-gallery">
-                                <a href="{{asset('assets/images/campus/gallery/01.webp')}}" class="single-gallery__item">
-                                    <img src="{{asset('assets/images/campus/gallery/01.webp')}}" alt="gallery">
+                                <a href="{{asset('assets/images/campus/gallery/lake-road-school-gallery-1.jpg')}}" class="single-gallery__item">
+                                    <img src="{{asset('assets/images/campus/gallery/lake-road-school-gallery-1.jpg')}}" alt="Lake Road PTA School Gallery">
                                     <div class="single-gallery__icon">
                                         <i class="fa-light fa-circle-plus"></i>
                                     </div>
@@ -429,8 +458,8 @@
                         </div>
                         <div class="swiper-slide">
                             <div class="single-gallery">
-                                <a href="{{asset('assets/images/campus/gallery/02.webp')}}" class="single-gallery__item">
-                                    <img src="{{asset('assets/images/campus/gallery/02.webp')}}" alt="gallery">
+                                <a href="{{asset('assets/images/campus/gallery/lake-road-school-gallery-2.jpg')}}" class="single-gallery__item">
+                                    <img src="{{asset('assets/images/campus/gallery/lake-road-school-gallery-2.jpg')}}" alt="Lake Road PTA School Gallery">
                                     <div class="single-gallery__icon">
                                         <i class="fa-light fa-circle-plus"></i>
                                     </div>
@@ -439,8 +468,8 @@
                         </div>
                         <div class="swiper-slide">
                             <div class="single-gallery">
-                                <a href="{{asset('assets/images/campus/gallery/03.webp')}}" class="single-gallery__item">
-                                    <img src="{{asset('assets/images/campus/gallery/03.webp')}}" alt="gallery">
+                                <a href="{{asset('assets/images/campus/gallery/lake-road-school-gallery-3.jpg')}}" class="single-gallery__item">
+                                    <img src="{{asset('assets/images/campus/gallery/lake-road-school-gallery-3.jpg')}}" alt="Lake Road PTA School Gallery">
                                     <div class="single-gallery__icon">
                                         <i class="fa-light fa-circle-plus"></i>
                                     </div>
@@ -449,8 +478,8 @@
                         </div>
                         <div class="swiper-slide">
                             <div class="single-gallery">
-                                <a href="{{asset('assets/images/campus/gallery/04.webp')}}" class="single-gallery__item">
-                                    <img src="{{asset('assets/images/campus/gallery/04.webp')}}" alt="gallery">
+                                <a href="{{asset('assets/images/campus/gallery/lake-road-school-gallery-4.jpg')}}" class="single-gallery__item">
+                                    <img src="{{asset('assets/images/campus/gallery/lake-road-school-gallery-4.jpg')}}" alt="Lake Road PTA School Gallery">
                                     <div class="single-gallery__icon">
                                         <i class="fa-light fa-circle-plus"></i>
                                     </div>

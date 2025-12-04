@@ -4,7 +4,7 @@
     <!-- inner menu area desktop start -->
     <div class="inner-main-wrapper-desk">
         <div class="thumbnail">
-            <img src="{{asset('assets/images/logo/logo__five.svg')}}" alt="Unipix-university">
+            <img src="{{asset('assets/images/logo/logo__five.svg')}}" alt="Lake Road PTA School-university">
         </div>
         <div class="inner-content">
             <p class="disc">

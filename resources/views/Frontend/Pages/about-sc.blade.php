@@ -20,27 +20,28 @@
                 <img src="{{asset('assets/images/about/a-1.webp" alt="about" class="rounded-10">
             </div>
             <div class="row g-5">
-                <div class="col-lg-6">
+                <div class="col-lg-12">
                     <div class="about-content">
-                        <p>Unipix School is a flexible, inclusive online school that empowers every student to succeed in their academic and personal lives. With personalised education in a warm and welcoming environment, we guide each young person to reach their full potential.</p>
-                        <div class="event__link">
-                            <a href="#" class="rts-theme-btn btn-arrow v2 full-btn">Join Our Event <span><i class="fa-sharp fa-regular fa-arrow-right"></i></span></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="inline-block-element">
-                        <div class="block-element">
-                            <img src="{{asset('assets/images/icon/student.svg')}}" alt="">
-                            <h3>19 Years</h3>
-                            <p>building Unipix School leadership in online education</p>
-                        </div>
-                        <div class="block-element">
-                            <img src="{{asset('assets/images/icon/school.svg')}}" alt="">
-                            <h3>11500+</h3>
-                            <p>successful Unipix School alumni and counting</p>
-                        </div>
+                        <h3 class="mb-4">About Lake Road PTA School</h3>
+                        <p class="mb-3">Lake Road PTA School is a non-profit learning institution which is wholly owned by Government of the Republic of Zambia but is run by the Parent and Teachers Association's (PTA) Board of Governors as provided for under the Education Act CAP 134 of the Laws of Zambia.</p>
 
+                        <p class="mb-3">The School comprises of two academic sections, the Primary section and the Secondary section that both operate independently within the same premises. However, despite the two academic sections having distinct operations, both of them provide World Class and Holistic Education where all pupils of different National background they fit in and are warmly embraced.</p>
+
+                        <h4 class="mt-5 mb-3">School History</h4>
+
+                        <p class="mb-3"><strong>February 1979:</strong> Lake Road PTA School started at Bishop Lodge, jointly owned by Paul Augustine Martin McCormack and his wife Marie-Terese Bernice McCormack.</p>
+
+                        <p class="mb-3"><strong>15th August 1990:</strong> The McCormacks made an agreement to sell the School to ZCCM Ltd which was signed between the McCormack couple and ZCCM Ltd Management.</p>
+
+                        <p class="mb-3"><strong>1st September 1990:</strong> ZCCM Ltd purchased Lake Road School from the McCormacks and named it Lake Road Trust School and was run under Medical and Education Trust of ZCCM Ltd.</p>
+
+                        <p class="mb-3"><strong>28th December 1993:</strong> A Deed of Gift was signed between ZCCM Ltd and the Government of the Republic of Zambia through the Ministry of Education.</p>
+
+                        <p class="mb-4"><strong>1st April 1994:</strong> The Parents and Teachers Association (PTA) Board of Governors started running the School as Lake Road PTA School which was registered as a society under the Societies Act and commenced operations as a PTA School.</p>
+
+                        <div class="event__link mt-5">
+                            <a href="{{ route('contact') }}" class="rts-theme-btn btn-arrow v2 full-btn">Contact Us <span><i class="fa-sharp fa-regular fa-arrow-right"></i></span></a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -136,7 +137,7 @@
                 <div class="feature">
                     <div class="feature__left">
                         <h2 class="feature__title">How we teach at our Primary school Students</h2>
-                        <p>At Unipix, our Pre-Primary program is designed to provide a safe, nurturing, and engaging environment where young learners develop curiosity, creativity, and confidence. Through interactive play.</p>
+                        <p>At Lake Road PTA School, our Pre-Primary program is designed to provide a safe, nurturing, and engaging environment where young learners develop curiosity, creativity, and confidence. Through interactive play.</p>
                         <a href="#" class="rts-theme-btn btn-arrow v2">Enroll Now <span><i class="fa-sharp fa-regular fa-arrow-right"></i></span></a>
                     </div>
                     <div class="feature__right">
