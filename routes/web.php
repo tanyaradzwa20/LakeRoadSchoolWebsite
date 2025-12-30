@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\FrontendController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PageController;
 
@@ -53,4 +54,12 @@ Route::controller(PageController::class)->group(function (){
     Route::get('faculty-sub', 'facultySub')->name('faculty-sub');
     Route::get('faculty', 'faculty')->name('faculty');
     Route::get('tution-fee', 'tutionFee')->name('tution-fee');
+});
+
+
+
+Route::controller(FrontendController::class)->group(function (){
+    Route::get('/', 'index')->name('index');
+    Route::get('/about', 'about')->name('about');
+    Route::get('/store', 'store')->name('store');
 });

@@ -15,7 +15,7 @@
                                         <path id="circle-2" d="M50,50 m-37,0a37,37 0 1,1 74,0a37,37 0 1,1 -74,0"></path>
                                     </defs>
                                     <text>
-                                        <textPath xlink:href="#circle-2">Unipix University * Estd. 1971 * Explore Future *</textPath>
+                                        <textPath xlink:href="#circle-2">Lake Road PTA School* Estd. 1971 * Explore Future *</textPath>
                                     </text>
                                 </svg>
                                 <div class="rts__circle--icon">
@@ -51,12 +51,12 @@
                     </div>
                     <div class="single-cta-item">
                         <h2 class="single-cta-item__title">16,214</h2>
-                        <p>Unipix University Faculty
+                        <p>Lake Road PTA SchoolFaculty
                             & Staff</p>
                     </div>
                     <div class="single-cta-item">
                         <h2 class="single-cta-item__title">300k</h2>
-                        <p>Unipix University alumni
+                        <p>Lake Road PTA Schoolalumni
                             Worldwide</p>
                     </div>
                     <div class="single-cta-item">
