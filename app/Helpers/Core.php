@@ -626,3 +626,115 @@ function primaryCirculars(){
     ];
 return $schoolCirculars;
 }
+
+function primaryResults()
+{
+    return  [
+        [
+            'year' => 2023,
+            'candidates' => 80,
+            'highest_score' => 840,
+            'lowest_score' => 633,
+            'average_score' => 766,
+            'progression_percentage' => 100,
+        ],
+        [
+            'year' => 2022,
+            'candidates' => 70,
+            'highest_score' => 828,
+            'lowest_score' => 625,
+            'average_score' => 755,
+            'progression_percentage' => 100,
+        ],
+        [
+            'year' => 2021,
+            'candidates' => 81,
+            'highest_score' => 848,
+            'lowest_score' => 653,
+            'average_score' => 778,
+            'progression_percentage' => 100,
+        ],
+        [
+            'year' => 2020,
+            'candidates' => 77,
+            'highest_score' => 836,
+            'lowest_score' => 579,
+            'average_score' => 760,
+            'progression_percentage' => 100,
+        ],
+        [
+            'year' => 2019,
+            'candidates' => 78,
+            'highest_score' => 847,
+            'lowest_score' => 672,
+            'average_score' => 769,
+            'progression_percentage' => 100,
+        ],
+        [
+            'year' => 2018,
+            'candidates' => 71,
+            'highest_score' => 844,
+            'lowest_score' => 594,
+            'average_score' => 765,
+            'progression_percentage' => 100,
+        ],
+        [
+            'year' => 2017,
+            'candidates' => 72,
+            'highest_score' => 842,
+            'lowest_score' => 643,
+            'average_score' => 773,
+            'progression_percentage' => 100,
+        ],
+        [
+            'year' => 2016,
+            'candidates' => 68,
+            'highest_score' => 841,
+            'lowest_score' => 680,
+            'average_score' => 771,
+            'progression_percentage' => 100,
+        ],
+        [
+            'year' => 2015,
+            'candidates' => 58,
+            'highest_score' => 833,
+            'lowest_score' => 693,
+            'average_score' => 780,
+            'progression_percentage' => 100,
+        ],
+        [
+            'year' => 2014,
+            'candidates' => 74,
+            'highest_score' => 836,
+            'lowest_score' => 662,
+            'average_score' => 778,
+            'progression_percentage' => 100,
+        ],
+        [
+            'year' => 2013,
+            'candidates' => 61,
+            'highest_score' => 860,
+            'lowest_score' => 623,
+            'average_score' => 779,
+            'progression_percentage' => 100,
+        ],
+        [
+            'year' => 2012,
+            'candidates' => 83,
+            'highest_score' => 851,
+            'lowest_score' => 672,
+            'average_score' => 779,
+            'progression_percentage' => 100,
+        ],
+        [
+            'year' => 2011,
+            'candidates' => 71,
+            'highest_score' => 859,
+            'lowest_score' => 661,
+            'average_score' => 787,
+            'progression_percentage' => 99,
+        ],
+    ];
+
+
+}

@@ -40,5 +40,10 @@ class FrontendController extends Controller
         return view('frontend.circulars',compact('data'));
     }
 
+    public function results()
+    {
+        $data = primaryResults();
+        return view('frontend.results',compact('data'));
+    }
 
 }

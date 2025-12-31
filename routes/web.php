@@ -66,4 +66,5 @@ Route::controller(FrontendController::class)->group(function (){
     Route::get('/curriculum/{type?}', 'curriculum')->name('curriculum');
     Route::get('/fees/{type?}', 'fees')->name('fees');
     Route::get('/circulars/{type?}', 'circulars')->name('circulars');
+    Route::get('/results', 'results')->name('results');
 });
