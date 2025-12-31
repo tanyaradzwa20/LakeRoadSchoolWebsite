@@ -45,5 +45,10 @@ class FrontendController extends Controller
         $data = primaryResults();
         return view('frontend.results',compact('data'));
     }
+    public function sen($type = 'primary')
+    {
+        $data = primarySEN();
+        return view('frontend.sen', compact('data'));
+    }
 
 }

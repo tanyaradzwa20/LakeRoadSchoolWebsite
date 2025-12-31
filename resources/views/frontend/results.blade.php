@@ -61,6 +61,15 @@
                     <div class="mt--50">
                         <p class="rt-regular">Note: The scores represent the total aggregate marks obtained by candidates in the National Examinations.</p>
                     </div>
+
+                    <div class="mt--50">
+                        <h6 class="title">Notes</h6>
+                        <ul class="list-unstyled">
+                            <li class="mb--10"><strong>(i)</strong> The total number of Leaners who sat for the 2023 examination was 80 (girls 23 & boys 57)</li>
+                            <li class="mb--10"><strong>(ii)</strong> The School attained an average score of 766/900 for the year 2023.</li>
+                            <li class="mb--10"><strong>(iii)</strong> All subject average scores were above 117/150</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>

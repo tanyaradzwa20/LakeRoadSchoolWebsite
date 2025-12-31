@@ -1,74 +1,24 @@
 
-<!-- footer twitter slider  -->
-<div class="x__slider">
-    <div class="container">
-        <div class="row">
-            <!-- Carousel commented out -->
-            <!-- <div class="col-lg-7 col-xxl-9 col-xl-7 d-flex align-items-center">
-                <div class="x__slider__active overflow-hidden">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <div class="x__slider__item">
-                                <img src="{{asset('assets/images/twitt.png')}}" alt="">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="x__slider__navigation">
-                    <div class="rts__slider--arrow">
-                        <div class="rts__prev slider__btn"><i class="fa-light fa-arrow-left"></i></div>
-                        <div class="rts__next slider__btn"><i class="fa-light fa-arrow-right"></i></div>
-                    </div>
-                </div>
-            </div> -->
-            <div class="col-lg-12">
-                <div class="subscription__form">
-                    <h5 class="subscription__form--title">Subscribe to newsletter</h5>
-
-                    <form action="#">
-                        <input type="email" placeholder="Enter your email address" required>
-                        <button type="submit" class="cta__button">Subscribe <span><i class="fa-regular fa-arrow-right"></i></span></button>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
 <!-- footer -->
-<footer class="footer {{ $class ?? 'sc' }}">
+<footer class="footer {{ $class ?? 'sc' }} pt--80 pb--80">
     <div class="container">
         <div class="row g-5">
-            <div class="col-lg-4 col-md-6 col-sm-6">
+            <div class="col-lg-4 col-md-6">
                 <div class="footer__widget">
-                    <div class="footer__widget--logo">
-                        <a href="index"><img src="{{asset('assets/images/logo/lake-road-school-logo.jpg')}}" alt="Lake Road School"></a>
+                    <div class="footer__widget--logo mb--20">
+                        <a href="{{ route('index') }}"><img src="{{asset('assets/images/logo/lake-road-school-logo.jpg')}}" alt="Lake Road School" style="max-height: 80px;"></a>
                     </div>
-                    <p class="footer__widget--description">
+                    <p class="footer__widget--description mb--20">
                         A perfect place for the education of any child. We are passionate about education and dedicated to providing high-quality learning for all students.
                     </p>
                     <div class="footer__widget--contact">
-                        <p><i class="fa-light fa-location-dot"></i> Corner of Lake Road & Leopards Hill Road, opposite Urban Hotel & Crossroad Shopping Mall, Woodlands, Lusaka, Zambia</p>
-                        <p><i class="fa-light fa-phone"></i> <a href="tel:+260965198924">+260 965198924</a></p>
-                        <p><i class="fa-light fa-envelope"></i> <a href="mailto:lakeroad@lrptas.ac.zm">lakeroad@lrptas.ac.zm</a></p>
-                        <p><i class="fa-light fa-globe"></i> <a href="https://lrptas.ac.zm" target="_blank">lrptas.ac.zm</a></p>
+                        <p class="mb--10"><i class="fa-light fa-location-dot me-2"></i> Corner of Lake Road & Leopards Hill Road, Lusaka, Zambia</p>
+                        <p class="mb--10"><i class="fa-light fa-phone me-2"></i> <a href="tel:+260965198924">+260 965198924</a></p>
+                        <p class="mb--10"><i class="fa-light fa-envelope me-2"></i> <a href="mailto:lakeroad@lrptas.ac.zm">lakeroad@lrptas.ac.zm</a></p>
                     </div>
-                    <div class="footer__widget--social">
-                        <ul class="social">
-                            <li class="social__link"><a href="https://www.facebook.com/LRPTAS" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-6">
-                <div class="footer__widget">
-                    <h6 class="footer__widget--title">Our Campus</h6>
-                    <div class="footer__widget--menu">
-                        <ul>
-                            <li><a href="{{ route('academic') }}">Academic</a></li>
-                            <li><a href="{{ route('athletics') }}">Planning & Admission</a></li>
-                            <li><a href="{{ route('campus-life') }}">Campus Safety</a></li>
-                            <li><a href="reasearch.php">Facility Services</a></li>
-                            <li><a href="{{ route('academic-area') }}">Human Resources</a></li>
+                    <div class="footer__widget--social mt--20">
+                        <ul class="social d-flex list-unstyled gap-3">
+                            <li class="social__link"><a href="https://www.facebook.com/LRPTAS" target="_blank"><i class="fa-brands fa-facebook-f"></i></a></li>
                         </ul>
                     </div>
                 </div>
@@ -77,22 +27,38 @@
                 <div class="footer__widget">
                     <h6 class="footer__widget--title">Our Campus</h6>
                     <div class="footer__widget--menu">
-                        <ul>
-                            <li><a href="{{ route('about') }}">Accessibility  </a></li>
-                            <li><a href="{{ route('tution-fee') }}">Financial Aid</a></li>
-                            <li><a href="{{ route('alumni') }}">Food Services</a></li>
-                            <li><a href="{{ route('faculty') }}">Housing</a></li>
-                            <li><a href="{{ route('event') }}">Student Life</a></li>
+                        <ul class="list-unstyled">
+                            <li><a href="{{ route('academic') }}">Academic</a></li>
+                            <li><a href="{{ route('campus-life') }}">Campus Life</a></li>
+                            <li><a href="{{ route('about') }}">About Us</a></li>
+                            <li><a href="{{ route('faculty') }}">Faculty</a></li>
                         </ul>
                     </div>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6">
                 <div class="footer__widget">
-                    <h6 class="footer__widget--title">Quick Button</h6>
-                    <div class="footer__widget--button">
-                        <a href="{{ route('admission') }}" class="cta__button active">Applying</a>
-                        <a href="{{ route('scholarship') }}" class="cta__button">scholarship</a>
+                    <h6 class="footer__widget--title">Information</h6>
+                    <div class="footer__widget--menu">
+                        <ul class="list-unstyled">
+                            <li><a href="{{ route('admission') }}">Admission</a></li>
+                            <li><a href="{{ route('tution-fee') }}">Tuition Fees</a></li>
+                            <li><a href="{{ route('results') }}">Academic Results</a></li>
+                            <li><a href="{{ route('sen') }}">Special Needs (SEN)</a></li>
+                            <li><a href="{{ route('circulars') }}">Circulars</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="footer__widget">
+                    <h6 class="footer__widget--title">Newsletter</h6>
+                    <p class="mb--20">Subscribe to get latest updates and news.</p>
+                    <div class="subscription__form">
+                        <form action="#" class="d-flex">
+                            <input type="email" placeholder="Email Address" required class="form-control" style="border-radius: 5px 0 0 5px; height: 50px;">
+                            <button type="submit" class="cta__button" style="border-radius: 0 5px 5px 0; height: 50px; padding: 0 20px;"><i class="fa-regular fa-paper-plane"></i></button>
+                        </form>
                     </div>
                 </div>
             </div>
@@ -102,12 +68,18 @@
 <!-- footer end -->
 
 <!-- footer copyright -->
-<div class="copyright sc">
+<div class="copyright sc py-4" style="background: #002147; border-top: 1px solid rgba(255,255,255,0.1);">
     <div class="container">
-        <div class="row">
-            <div class="col-sm-12">
-                <div class="copyright__wrapper">
-                    <p>Copyright &copy; {{ date('Y') }} All Rights Reserved</p>
+        <div class="row align-items-center">
+            <div class="col-md-6 text-center text-md-start">
+                <p class="mb-0 text-white">Copyright &copy; {{ date('Y') }} Lake Road PTA School. All Rights Reserved</p>
+            </div>
+            <div class="col-md-6 text-center text-md-end mt-3 mt-md-0">
+                <div class="footer__widget--menu">
+                    <ul class="list-unstyled d-inline-flex gap-3 mb-0">
+                        <li><a href="#" class="text-white">Privacy Policy</a></li>
+                        <li><a href="#" class="text-white">Terms of Use</a></li>
+                    </ul>
                 </div>
             </div>
         </div>

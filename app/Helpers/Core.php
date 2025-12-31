@@ -627,6 +627,7 @@ function primaryCirculars(){
 return $schoolCirculars;
 }
 
+
 function primaryResults()
 {
     return  [
@@ -737,4 +738,53 @@ function primaryResults()
     ];
 
 
+}
+
+function primarySEN()
+{
+    return [
+        'what_is_sen' => [
+            'title' => 'What is SEN?',
+            'content' => [
+                'SEN stands for Special Education Needs. It is a critical strategic repositioning Department in the School that deals with Pupils with learning difficulties in the areas of writing and Mathematics.',
+                'This Department in the School is managed by our qualified and skilled SEN Teacher.'
+            ]
+        ],
+        'objectives' => [
+            'title' => 'SEN\'s Objectives',
+            'content' => [
+                'The SEN Teacher gives the Pupils remedial lessons as well as other specialized learning aimed at improving their specific area of need.',
+                'SEN involves fine motor muscle training to improve Pupils\' handwriting and extensive reading program. The SEN Teacher is equal to this task which he demonstrates and performs effectively.',
+                'A lot of Pupils who join the School with a number of different difficulties are helped. These Pupils are later integrated back to their Classrooms and they do better.'
+            ]
+        ],
+        'program_offered' => [
+            'title' => 'SEN Program Offered',
+            'content' => [
+                'The Learners with Special Education Needs are incorporated in an Inclusive Education System where they have individual sessions with the SEN teacher, then are later mainstreamed into regular classrooms of their grade level. This gives them an opportunity of a double coordinated learning style where they benefit not only in the specialized area of their challenge but also in the mainstream activities.'
+            ]
+        ],
+        'provides' => [
+            'title' => 'SEN Provides the following',
+            'items' => [
+                'Reading and Writing Programmes',
+                'Arithmetic Programmes',
+                'General counselling programmes'
+            ]
+        ],
+        'categories' => [
+            'title' => 'Categories of Special Needs',
+            'description' => 'Considering the Education form being provided for such learners at the moment (Inclusive Education system), the categories of the cases being enrolled are those with Mild to Moderate cases and the classifications are Physical and Health Impairments that have an effect in the academic achievements of these learners. Cases that we cater for at the moment include:',
+            'items' => [
+                'Mild - Moderate Cerebral Palsy and Ataxia',
+                'Mild - Moderate Attention Deficit and Hyperactivity Disorders',
+                'Mild - Moderate Down Syndrome',
+                'Specific Learning Disabilities'
+            ]
+        ],
+        'fees' => [
+            'title' => 'Special Needs Fees',
+            'content' => 'SEN Fees shall be charged additional to the standard billing for the term to every child registered for learning support'
+        ]
+    ];
 }

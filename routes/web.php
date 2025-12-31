@@ -67,4 +67,5 @@ Route::controller(FrontendController::class)->group(function (){
     Route::get('/fees/{type?}', 'fees')->name('fees');
     Route::get('/circulars/{type?}', 'circulars')->name('circulars');
     Route::get('/results', 'results')->name('results');
+    Route::get('/sen', 'sen')->name('sen');
 });
