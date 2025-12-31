@@ -56,32 +56,32 @@
                                                        <ul class="submenu sub__style">
                                                            <li><a href="{{route('curriculum',['primary'])}}">Curriculum</a></li>
                                                            <li><a href="{{route('fees',['primary'])}}">Fees</a></li>
-                                                           <li><a href="#">Uniforms</a></li>
-                                                           <li><a href="#">Circulars</a></li>
-                                                           <li><a href="#">Results</a></li>
-                                                           <li><a href="#">Activities</a></li>
-                                                           <li><a href="#">Calendar</a></li>
-                                                           <li><a href="#">Teachers</a></li>
-                                                           <li><a href="#">Facilities</a></li>
-                                                           <li><a href="#">Gallery</a></li>
+{{--                                                           <li><a href="#">Uniforms</a></li>--}}
+{{--                                                           <li><a href="#">Circulars</a></li>--}}
+{{--                                                           <li><a href="#">Results</a></li>--}}
+{{--                                                           <li><a href="#">Activities</a></li>--}}
+{{--                                                           <li><a href="#">Calendar</a></li>--}}
+{{--                                                           <li><a href="#">Teachers</a></li>--}}
+{{--                                                           <li><a href="#">Facilities</a></li>--}}
+{{--                                                           <li><a href="#">Gallery</a></li>--}}
                                                        </ul>
                                                    </li>
                                                    <li class="navigation__menu--item has-child has-arrow">
                                                        <a href="{{ route('senior-school') }}" class="navigation__menu--item__link">Secondary School</a>
                                                        <ul class="submenu sub__style">
-                                                           <li><a href="#">Holiday Tuitions</a></li>
-                                                           <li><a href="#">Curriculum</a></li>
-                                                           <li><a href="#">Fees</a></li>
-                                                           <li><a href="#">Uniforms</a></li>
-                                                           <li><a href="#">GCE Fees</a></li>
-                                                           <li><a href="#">Results</a></li>
-                                                           <li><a href="#">Circulars</a></li>
-                                                           <li><a href="#">Activities</a></li>
-                                                           <li><a href="#">Counselling & Guidance</a></li>
-                                                           <li><a href="#">Calendar</a></li>
-                                                           <li><a href="#">Teachers</a></li>
-                                                           <li><a href="#">Facilities</a></li>
-                                                           <li><a href="#">Gallery</a></li>
+{{--                                                           <li><a href="#">Holiday Tuitions</a></li>--}}
+{{--                                                           <li><a href="#">Curriculum</a></li>--}}
+{{--                                                           <li><a href="#">Fees</a></li>--}}
+{{--                                                           <li><a href="#">Uniforms</a></li>--}}
+{{--                                                           <li><a href="#">GCE Fees</a></li>--}}
+{{--                                                           <li><a href="#">Results</a></li>--}}
+{{--                                                           <li><a href="#">Circulars</a></li>--}}
+{{--                                                           <li><a href="#">Activities</a></li>--}}
+{{--                                                           <li><a href="#">Counselling & Guidance</a></li>--}}
+{{--                                                           <li><a href="#">Calendar</a></li>--}}
+{{--                                                           <li><a href="#">Teachers</a></li>--}}
+{{--                                                           <li><a href="#">Facilities</a></li>--}}
+{{--                                                           <li><a href="#">Gallery</a></li>--}}
                                                        </ul>
                                                    </li>
                                                    <li class="navigation__menu--item">

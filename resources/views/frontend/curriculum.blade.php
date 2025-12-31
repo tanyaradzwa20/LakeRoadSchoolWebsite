@@ -69,6 +69,4 @@
     </div>
     <!-- curriculum section end -->
 
-    <x-campus-tour/>
-
 </x-app>
