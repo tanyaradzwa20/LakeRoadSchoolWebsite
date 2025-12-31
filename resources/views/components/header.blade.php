@@ -52,10 +52,10 @@
                                                        <a href="{{ route('about') }}" class="navigation__menu--item__link">About</a>
                                                    </li>
                                                    <li class="navigation__menu--item has-child has-arrow">
-                                                       <a href="{{ route('primary-school') }}" class="navigation__menu--item__link">Primary School</a>
+                                                       <a href="#" class="navigation__menu--item__link">Primary School</a>
                                                        <ul class="submenu sub__style">
-                                                           <li><a href="#">Curriculum</a></li>
-                                                           <li><a href="#">Fees</a></li>
+                                                           <li><a href="{{route('curriculum',['primary'])}}">Curriculum</a></li>
+                                                           <li><a href="{{route('fees',['primary'])}}">Fees</a></li>
                                                            <li><a href="#">Uniforms</a></li>
                                                            <li><a href="#">Circulars</a></li>
                                                            <li><a href="#">Results</a></li>

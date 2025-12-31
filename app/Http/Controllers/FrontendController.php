@@ -20,4 +20,19 @@ class FrontendController extends Controller
     public function store(){
         return view('frontend.store');
     }
+
+    public function curriculum($type = 'primary'){
+
+        $data=getPrimaryCurriculum();
+        return view('frontend.curriculum',compact('data'));
+    }
+
+    public function fees($type = 'primary')
+    {
+        $data = primaryFees();
+        return view('frontend.fees',compact('data'));
+
+    }
+
+
 }

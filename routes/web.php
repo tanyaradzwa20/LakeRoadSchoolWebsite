@@ -62,4 +62,7 @@ Route::controller(FrontendController::class)->group(function (){
     Route::get('/', 'index')->name('index');
     Route::get('/about', 'about')->name('about');
     Route::get('/store', 'store')->name('store');
+    Route::get('/contact', 'contact')->name('contact');
+    Route::get('/curriculum/{type?}', 'curriculum')->name('curriculum');
+    Route::get('/fees/{type?}', 'fees')->name('fees');
 });
