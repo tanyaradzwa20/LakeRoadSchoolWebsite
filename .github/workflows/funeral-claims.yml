@@ -1,0 +1,52 @@
+on:
+  push:
+    branches:
+      - marvelous
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y sshpass
+
+      - name: Connect and Deploy
+        run: |
+          sshpass -p "${{ secrets.SSH_PASSWORD }}" ssh -o StrictHostKeyChecking=no  "${{ secrets.SSH_USERNAME }}@${{ secrets.SSH_HOST }}" << 'EOF'
+            # Step 1: Navigate to the /opt directory
+            cd /opt/apps
+
+            # Step 2: Clone the latest repository
+            if [ -d "lakeroad" ]; then
+              echo "Directory already exists. Removing..."
+              rm -rf lakeroad
+            fi
+            mkdir lakeroad
+
+            # Step 3: Navigate to the project directory
+            cd lakeroad
+
+            git clone https://devTatendaMarvelous:${{ secrets.TOKEN }}@github.com/tanyaradzwa20/LakeRoadSchoolWebsite.git .
+
+            git checkout marvelous
+            git pull origin marvelous
+
+            # Step 4: Stop, remove, and clean Docker resources
+            docker stop lakeroad || true
+            docker rm lakeroad || true
+            docker rmi lakeroad || true
+
+            # Step 5: Build and run the Docker container
+            docker build -t lakeroad .
+            docker run -d -p 9057:8080 --name=lakeroad --restart=always lakeroad
+
+            # Step 6: Clean up cloned repository
+            cd ..
+            rm -rf lakeroad
+
+            echo "Deployment completed successfully."
+          EOF

@@ -56,8 +56,7 @@
                                                        <ul class="submenu sub__style">
                                                            <li><a href="{{route('curriculum',['primary'])}}">Curriculum</a></li>
                                                            <li><a href="{{route('fees',['primary'])}}">Fees</a></li>
-{{--                                                           <li><a href="#">Uniforms</a></li>--}}
-{{--                                                           <li><a href="#">Circulars</a></li>--}}
+                                                           <li><a href="{{route('circulars',['primary'])}}">Circulars</a></li>
 {{--                                                           <li><a href="#">Results</a></li>--}}
 {{--                                                           <li><a href="#">Activities</a></li>--}}
 {{--                                                           <li><a href="#">Calendar</a></li>--}}

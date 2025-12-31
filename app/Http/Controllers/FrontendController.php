@@ -34,5 +34,11 @@ class FrontendController extends Controller
 
     }
 
+  public  function circulars($type = 'primary')
+    {
+        $data=primaryCirculars();
+        return view('frontend.circulars',compact('data'));
+    }
+
 
 }

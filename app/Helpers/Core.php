@@ -552,3 +552,77 @@ function primaryFees()
         "grades" => $grades,
     ];
 }
+
+function primaryCirculars(){
+    $schoolCirculars = [
+        [
+            'number' => 1,
+            'term' => 'Term 1',
+            'year' => 2021,
+            'title' => 'Circular No. 1, Term 1 2021',
+            'information' => [
+                'Civilian Day'
+            ],
+            'download' => true
+        ],
+        [
+            'number' => 2,
+            'term' => 'Term 3 & 2',
+            'year' => 2020,
+            'title' => 'Circular No. 2, Term 3 & 2 2020',
+            'information' => [
+                'School Uniform'
+            ],
+            'download' => true
+        ],
+        [
+            'number' => 1,
+            'term' => 'Term 3 & 2',
+            'year' => 2020,
+            'title' => 'Circular No. 1, Term 3 & 2 2020',
+            'information' => [
+                'COVID 19 Preventive Measures',
+                'Afternoon Programme',
+                'School Cafeteria',
+                'School Based Assessment',
+                'E-Learning Platform',
+                'School Calendar'
+            ],
+            'download' => true
+        ],
+        [
+            'number' => 1,
+            'term' => 'Term 2',
+            'year' => 2018,
+            'title' => 'Circular No. 1, Term 2 2018',
+            'information' => [
+                'Primary School Science Fair'
+            ],
+            'download' => true
+        ],
+        [
+            'number' => 2,
+            'term' => 'Term 1',
+            'year' => 2018,
+            'title' => 'Circular No. 2, Term 1 2018',
+            'information' => [
+                'Primary School Upper Concert for 2018'
+            ],
+            'download' => true
+        ],
+        [
+            'number' => 1,
+            'term' => 'Term 1',
+            'year' => 2018,
+            'title' => 'Circular No. 1, Term 1 2018',
+            'information' => [
+                'Consultation Afternoon',
+                'Afternoon Activity Programme',
+                'School Lunches',
+                'Educational Trips'
+            ],
+            'download' => true
+        ],
+    ];
+return $schoolCirculars;
+}
