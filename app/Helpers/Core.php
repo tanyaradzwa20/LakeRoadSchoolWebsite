@@ -788,3 +788,310 @@ function primarySEN()
         ]
     ];
 }
+
+function galleryData()
+{
+    return [
+        [
+            'category' => 'campus',
+            'category_name' => 'Campus',
+            'image' => 'about-1.jpg',
+            'title' => 'School Campus'
+        ],
+        [
+            'category' => 'students',
+            'category_name' => 'Students',
+            'image' => 'primary-students-lake-road-school.jpg',
+            'title' => 'Primary Students'
+        ],
+        [
+            'category' => 'students',
+            'category_name' => 'Students',
+            'image' => 'secondary-students-lake-road-school.jpg',
+            'title' => 'Secondary Students'
+        ],
+        [
+            'category' => 'campus',
+            'category_name' => 'Campus',
+            'image' => 'admission-lake-road-school.jpg',
+            'title' => 'Admission Office'
+        ],
+        [
+            'category' => 'events',
+            'category_name' => 'Events',
+            'image' => 'mission-1.jpg',
+            'title' => 'School Event'
+        ],
+        [
+            'category' => 'events',
+            'category_name' => 'Events',
+            'image' => 'mission-2.jpg',
+            'title' => 'Graduation'
+        ],
+    ];
+}
+
+
+function primaryTeachers()
+{
+    return [
+        [
+            'name' => 'Mrs Leonora Chitambala',
+            'position' => 'Head of Section',
+            'section' => 'Middle Primary',
+            'qualification' => 'Bachelor of Education',
+            'subjects' => 'Primary School Grades',
+            'image' => 'leonora_chitambala.jpg',
+        ],
+        [
+            'name' => 'Mrs Grace Kapambwe',
+            'position' => 'Head of Section',
+            'section' => 'Lower Primary',
+            'qualification' => 'Diploma of Education',
+            'subjects' => 'Reception',
+            'image' => 'grace_kapambwe.jpg',
+        ],
+        [
+            'name' => 'Mr Amon Samakayi',
+            'position' => 'Head of Section',
+            'section' => 'Upper Primary',
+            'qualification' => 'Diploma in Education',
+            'subjects' => 'Primary School Grades',
+            'image' => 'amon_samakayi.jpg',
+        ],
+        [
+            'name' => 'Mr Olias Mulaisho',
+            'position' => 'Head of Section',
+            'section' => 'Co-curricular',
+            'qualification' => 'Advanced Diploma in Management of Information System',
+            'subjects' => 'Information Technology',
+            'image' => 'olias_mulaisho.jpg',
+        ],
+        [
+            'name' => 'Mr Masuzyo Daka',
+            'position' => 'Teacher',
+            'section' => null,
+            'qualification' => 'Bachelor of Education',
+            'subjects' => 'Primary School Grades',
+            'image' => 'masuzyo_daka.jpg',
+        ],
+        [
+            'name' => 'Mr Ackim Kaseya',
+            'position' => 'Teacher',
+            'section' => null,
+            'qualification' => 'Bachelor of Arts in Education (French & English)',
+            'subjects' => 'French',
+            'image' => 'ackim_kaseya.jpg',
+        ],
+        [
+            'name' => 'Mrs Pamela Kayamba Japi',
+            'position' => 'Teacher',
+            'section' => null,
+            'qualification' => 'Bachelor of Education',
+            'subjects' => 'Primary School Grades',
+            'image' => 'pamela_japi.jpg',
+        ],
+        [
+            'name' => 'Mrs Mirriam Yambala',
+            'position' => 'Teacher',
+            'section' => null,
+            'qualification' => 'Bachelor of Education',
+            'subjects' => 'Primary School Grades',
+            'image' => 'mirriam_yambala.jpg',
+        ],
+        [
+            'name' => 'Mrs Mukota Mweemba',
+            'position' => 'Teacher',
+            'section' => null,
+            'qualification' => 'Bachelor of Education',
+            'subjects' => 'Primary School Grades',
+            'image' => 'mukota_mweemba.jpg',
+        ],
+        [
+            'name' => 'Ms Joan Chishala',
+            'position' => 'Teacher',
+            'section' => null,
+            'qualification' => 'Bachelor of Special Education (Linguistic & African Languages)',
+            'subjects' => 'Special Education',
+            'image' => 'joan_chishala.jpg',
+        ],
+        [
+            'name' => 'Ms Tina Namoomba',
+            'position' => 'Teacher',
+            'section' => null,
+            'qualification' => 'Bachelor of Education',
+            'subjects' => 'Music',
+            'image' => 'tina_namoomba.jpg',
+        ],
+        [
+            'name' => 'Mr Innocent Chitwa',
+            'position' => 'Teacher',
+            'section' => null,
+            'qualification' => 'Bachelor of Special Education',
+            'subjects' => 'Special Education',
+            'image' => 'innocent_chitwa.jpg',
+        ],
+        [
+            'name' => 'Ms Chikumbi Chibaye',
+            'position' => 'Teacher',
+            'section' => null,
+            'qualification' => 'Bachelor of Education',
+            'subjects' => 'Primary School Grades',
+            'image' => 'chikumbi_chibaye.jpg',
+        ],
+        [
+            'name' => 'Mrs Joan Kakhongwe',
+            'position' => 'Teacher',
+            'section' => null,
+            'qualification' => 'Primary Teachers Diploma',
+            'subjects' => 'Primary School Grades',
+            'image' => 'joan_kakhongwe.jpg',
+        ],
+        [
+            'name' => 'Mrs Helen Matafwali',
+            'position' => 'Teacher',
+            'section' => null,
+            'qualification' => 'Diploma of Education',
+            'subjects' => 'Home Economics',
+            'image' => 'helen_matafwali.jpg',
+        ],
+        [
+            'name' => 'Mrs Mary Banda',
+            'position' => 'Teacher',
+            'section' => null,
+            'qualification' => 'Diploma of Education',
+            'subjects' => 'Primary School Grades',
+            'image' => 'mary_banda.jpg',
+        ],
+        [
+            'name' => 'Mrs Mildred Banda',
+            'position' => 'Teacher',
+            'section' => null,
+            'qualification' => 'Diploma of Education',
+            'subjects' => 'Primary School Grades',
+            'image' => 'mildred_banda.jpg',
+        ],
+        [
+            'name' => 'Mr Chimuka Mukonka',
+            'position' => 'Teacher',
+            'section' => null,
+            'qualification' => 'Diploma in Education',
+            'subjects' => 'Physical Education',
+            'image' => 'chimuka_mukonka.jpg',
+        ],
+        [
+            'name' => 'Mrs Mary Mwansa',
+            'position' => 'Teacher',
+            'section' => null,
+            'qualification' => "Primary Teacher's Diploma of Education",
+            'subjects' => 'Primary School Grades',
+            'image' => 'mary_mwansa.jpg',
+        ],
+        [
+            'name' => 'Ms Abgail Mwenda',
+            'position' => 'Teacher',
+            'section' => null,
+            'qualification' => 'Diploma of Education',
+            'subjects' => 'Primary School Grades',
+            'image' => 'abgail_mwenda.jpg',
+        ],
+        [
+            'name' => 'Ms Lucy Maluti',
+            'position' => 'Teacher',
+            'section' => null,
+            'qualification' => 'Diploma',
+            'subjects' => 'Nursery',
+            'image' => 'lucy_maluti.jpg',
+        ],
+        [
+            'name' => 'Mrs Nancy B Mutono',
+            'position' => 'Teacher',
+            'section' => null,
+            'qualification' => 'Diploma of Education',
+            'subjects' => 'Primary School Grades',
+            'image' => 'nancy_mutono.jpg',
+        ],
+        [
+            'name' => 'Mrs Patricia C Kutala',
+            'position' => 'Teacher',
+            'section' => null,
+            'qualification' => 'Diploma of Education',
+            'subjects' => 'Pre-School',
+            'image' => 'patricia_kutala.jpg',
+        ],
+        [
+            'name' => 'Mrs Jacintha Lungu',
+            'position' => 'Teacher',
+            'section' => null,
+            'qualification' => 'Diploma in Education',
+            'subjects' => 'Primary School Grades',
+            'image' => 'jacintha_lungu.jpg',
+        ],
+        [
+            'name' => 'Ms Maureen Chishala',
+            'position' => 'Teacher',
+            'section' => null,
+            'qualification' => 'Diploma in Education',
+            'subjects' => 'Primary School Grades',
+            'image' => 'maureen_chishala.jpg',
+        ],
+        [
+            'name' => 'Ms Florence Banda',
+            'position' => 'Teacher',
+            'section' => null,
+            'qualification' => "Primary Teacher's Diploma",
+            'subjects' => 'Primary School Grades',
+            'image' => 'florence_banda.jpg',
+        ],
+        [
+            'name' => 'Ms Namposya Nambule',
+            'position' => 'Teacher',
+            'section' => null,
+            'qualification' => 'Diploma in Education',
+            'subjects' => 'Primary School Grades',
+            'image' => 'namposya_nambule.jpg',
+        ],
+        [
+            'name' => 'Mr Kennedy Mpola',
+            'position' => 'Teacher',
+            'section' => null,
+            'qualification' => 'Diploma in Lower Primary',
+            'subjects' => 'Primary School Grades',
+            'image' => 'kennedy_mpola.jpg',
+        ],
+        [
+            'name' => 'Ms Sympathy Musamba',
+            'position' => 'Teacher',
+            'section' => null,
+            'qualification' => 'Diploma in Special Education & Certificate in Early Childhood',
+            'subjects' => 'Primary School Grades',
+            'image' => 'sympathy_musamba.jpg',
+        ],
+        [
+            'name' => 'Mrs Doris Simukulwa',
+            'position' => 'Teacher',
+            'section' => null,
+            'qualification' => 'Pre-School Certificate',
+            'subjects' => 'Reception',
+            'image' => 'doris_simukulwa.jpg',
+        ],
+        [
+            'name' => 'Mrs Linda Lisulo',
+            'position' => 'Teacher',
+            'section' => null,
+            'qualification' => 'Pre-School Certificate',
+            'subjects' => 'Pre-School',
+            'image' => 'linda_lisulo.jpg',
+        ],
+        [
+            'name' => 'Mrs Petronella Mulenga',
+            'position' => 'Secretary',
+            'section' => null,
+            'qualification' => 'Diploma in Secretarial Studies',
+            'subjects' => null,
+            'image' => 'petronella_mulenga.jpg',
+        ],
+    ];
+
+
+}

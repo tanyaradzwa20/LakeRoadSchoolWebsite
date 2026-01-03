@@ -60,9 +60,9 @@
                                                            <li><a href="{{route('results',['primary'])}}">Results</a></li>
                                                            <li><a href="{{route('sen',['primary'])}}">SEN</a></li>
 {{--                                                           <li><a href="#">Calendar</a></li>--}}
-{{--                                                           <li><a href="#">Teachers</a></li>--}}
+                                                           <li><a href="{{route('teachers',['primary'])}}">Teachers</a></li>
 {{--                                                           <li><a href="#">Facilities</a></li>--}}
-{{--                                                           <li><a href="#">Gallery</a></li>--}}
+                                                           <li><a href="{{route('gallery',['primary'])}}">Gallery</a></li>
                                                        </ul>
                                                    </li>
                                                    <li class="navigation__menu--item has-child has-arrow">

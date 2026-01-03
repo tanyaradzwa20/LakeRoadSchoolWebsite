@@ -68,4 +68,6 @@ Route::controller(FrontendController::class)->group(function (){
     Route::get('/circulars/{type?}', 'circulars')->name('circulars');
     Route::get('/results', 'results')->name('results');
     Route::get('/sen', 'sen')->name('sen');
+    Route::get('/teachers', 'teachers')->name('teachers');
+    Route::get('/gallery', 'gallery')->name('gallery');
 });
