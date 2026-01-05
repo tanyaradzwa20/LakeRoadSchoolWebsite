@@ -970,7 +970,96 @@ function primaryCirculars(){
             'download' => true
         ],
     ];
-return $schoolCirculars;
+    return $schoolCirculars;
+}
+function secondryCirculars(){
+   return [
+       [
+           'title' => 'Circular Wednesday September 22, 2021',
+           'year' => 2021,
+           'date' => '2021-09-22',
+           'term' => null,
+           'information' => [
+               'Term 2, 2021',
+               'Term 3, 2021',
+               'School-Based Assessments (SBA)',
+               'Exam Practice',
+           ],
+           'download' => true,
+       ],
+       [
+           'title' => 'Circular No. 3, Term 1 2021',
+           'number' => 3,
+           'term' => 'Term 1',
+           'year' => 2021,
+           'information' => [
+               'Open Day for Term 1, 2021',
+               'School-Based Assessments (SBA) – ECZ Candidates Only',
+           ],
+           'download' => true,
+       ],
+       [
+           'title' => 'Circular No. 2, Term 1 2021',
+           'number' => 2,
+           'term' => 'Term 1',
+           'year' => 2021,
+           'information' => [
+               'Civilian Day',
+           ],
+           'download' => true,
+       ],
+       [
+           'title' => 'Circular No. 1, Term 1 2021',
+           'number' => 1,
+           'term' => 'Term 1',
+           'year' => 2021,
+           'information' => [
+               '2021 Candidate Registration – Grades 9 and 12',
+               'Grade 9 Registration',
+               'Grade 12 Registration',
+               'Registration Form',
+               'Method of Payments',
+           ],
+           'download' => true,
+       ],
+       [
+           'title' => 'Circular No. 2, Term 3 & 2 2020',
+           'number' => 2,
+           'term' => 'Term 3 & 2',
+           'year' => 2020,
+           'information' => [
+               'Grade 12 Graduation 2020',
+           ],
+           'download' => true,
+       ],
+       [
+           'title' => 'Circular No. 1, Term 3 & 2 2020',
+           'number' => 1,
+           'term' => 'Term 3 & 2',
+           'year' => 2020,
+           'information' => [
+               'Grade 10 Afternoon Programme',
+               'End of Afternoon Programme',
+               'Mock Examinations for 9th and 12th Graders',
+               'Examination Practice',
+               'School Calendar',
+               'World / International Teachers’ Day',
+           ],
+           'download' => true,
+       ],
+       [
+           'title' => 'Circular No. 1, Term 2 2020',
+           'number' => 1,
+           'term' => 'Term 2',
+           'year' => 2020,
+           'information' => [
+               'End of Term 1 Examinations',
+               'Important Dates to Diarise for 9th and 12th Graders',
+           ],
+           'download' => true,
+       ],
+   ];
+
 }
 
 
@@ -1085,6 +1174,330 @@ function primaryResults()
 
 
 }
+
+function secondaryResults(){
+    $grade12  =[
+  'title'=>'Subject Analysis - Grade 12',
+        'description'=>'Almost all the Pupils at Lake Road PTA School who sat for the Grade 12 Exams obtained full certificates.',
+      'data'=>  [
+        'English' => [
+            2023 => 100, 2022 => 100, 2021 => 100, 2020 => 100,
+            2019 => 100, 2018 => 100, 2017 => 100, 2016 => 100,
+            2015 => 100, 2014 => 100, 2013 => 100, 2012 => 100,
+            2011 => 100, 2010 => 100,
+        ],
+
+        'Mathematics' => [
+            2023 => 93, 2022 => 83, 2021 => 68, 2020 => 82,
+            2019 => 88, 2018 => 83, 2017 => 80, 2016 => 87,
+            2015 => 83, 2014 => 100, 2013 => 93, 2012 => 93,
+            2011 => 75, 2010 => 87,
+        ],
+
+        'Physics' => [
+            2023 => 100, 2022 => 100, 2021 => 88, 2020 => 67,
+            2019 => 92, 2018 => 100, 2017 => 100, 2016 => 100,
+            2015 => 100, 2014 => 100, 2013 => 94, 2012 => 94,
+            2011 => 100, 2010 => 100,
+        ],
+
+        'Chemistry' => [
+            2023 => 100, 2022 => 100, 2021 => 88, 2020 => 83,
+            2019 => 92, 2018 => 100, 2017 => 83, 2016 => 100,
+            2015 => 91, 2014 => 100, 2013 => 94, 2012 => 94,
+            2011 => 100, 2010 => 100,
+        ],
+
+        'Biology' => [
+            2023 => 96, 2022 => 97, 2021 => 96, 2020 => 91,
+            2019 => 93, 2018 => 91, 2017 => 100, 2016 => 100,
+            2015 => 98, 2014 => 100, 2013 => 98, 2012 => 98,
+            2011 => 100, 2010 => 91,
+        ],
+
+        'Science' => [
+            2023 => 89, 2022 => 92, 2021 => 85, 2020 => 90,
+            2019 => 97, 2018 => 90, 2017 => 88, 2016 => 88,
+            2015 => 94, 2014 => 100, 2013 => 100, 2012 => 100,
+            2011 => 97, 2010 => 92,
+        ],
+
+        'Religious Education' => [
+            2023 => 100, 2022 => 100, 2021 => 67, 2020 => 100,
+            2019 => 94, 2018 => 100, 2017 => 100, 2016 => 100,
+            2015 => 100, 2014 => 100, 2013 => 100, 2012 => 100,
+            2011 => 100, 2010 => 100,
+        ],
+
+        'Geography' => [
+            2023 => 75, 2022 => 100, 2021 => 100, 2020 => 100,
+            2019 => 94, 2018 => 95, 2017 => 100, 2016 => 100,
+            2015 => 100, 2014 => 100, 2013 => 100, 2012 => 100,
+            2011 => 89, 2010 => 100,
+        ],
+
+        'History' => [
+            2023 => 100, 2022 => 100, 2021 => 100, 2020 => 100,
+            2019 => 100, 2018 => 100, 2017 => 100, 2016 => 100,
+            2015 => 100, 2014 => 100, 2013 => 100, 2012 => 100,
+            2011 => 100, 2010 => 82,
+        ],
+
+        'Commerce' => [
+            2023 => 100, 2022 => 100, 2021 => 100, 2020 => 80,
+            2019 => 93, 2018 => 100, 2017 => 100, 2016 => 100,
+            2015 => 100, 2014 => 100, 2013 => 100, 2012 => 100,
+            2011 => 96, 2010 => 100,
+        ],
+
+        'Accounts' => [
+            2023 => 100, 2022 => 100, 2021 => 100, 2020 => 100,
+            2019 => 100, 2018 => 100, 2017 => 100, 2016 => 100,
+            2015 => 100, 2014 => 100, 2013 => 100, 2012 => 100,
+            2011 => 100, 2010 => 100,
+        ],
+
+        'Computer Studies' => [
+            2023 => 84, 2022 => 100, 2021 => 88, 2020 => 100,
+            2019 => 100, 2018 => 100, 2017 => 100, 2016 => 100,
+            2015 => 100, 2014 => 85, 2013 => 100, 2012 => 100,
+            2011 => 88, 2010 => 86,
+        ],
+
+        'Art' => [
+            2023 => 100, 2022 => 100, 2021 => 100, 2020 => 100,
+            2019 => null, 2018 => 100, 2017 => 100, 2016 => 100,
+            2015 => 100, 2014 => 100, 2013 => 100, 2012 => 100,
+            2011 => 100, 2010 => 100,
+        ],
+
+        'Music' => [
+            2023 => 100, 2022 => 100, 2021 => 100, 2020 => 100,
+            2019 => 100, 2018 => null, 2017 => 100, 2016 => 100,
+            2015 => 100, 2014 => null, 2013 => null, 2012 => null,
+            2011 => null, 2010 => null,
+        ],
+
+        'Design & Technology' => [
+            2023 => 100, 2022 => 100, 2021 => 100, 2020 => 100,
+            2019 => null, 2018 => null, 2017 => 100, 2016 => null,
+            2015 => 100, 2014 => 100, 2013 => 100, 2012 => 100,
+            2011 => 100, 2010 => 100,
+        ],
+
+        'Literature' => [
+            2023 => 100, 2022 => 100, 2021 => 100, 2020 => 100,
+            2019 => 100, 2018 => 75, 2017 => 100, 2016 => 93,
+            2015 => 100, 2014 => 100, 2013 => 100, 2012 => 93,
+            2011 => 77, 2010 => null,
+        ],
+
+        'ADMA' => [
+            2023 => 100, 2022 => null, 2021 => null, 2020 => null,
+            2019 => null, 2018 => 100, 2017 => 75, 2016 => 20,
+            2015 => 100, 2014 => 100, 2013 => 100, 2012 => 78,
+            2011 => 67, 2010 => null,
+        ],
+
+        'French' => [
+            2023 => 100, 2022 => 100, 2021 => null, 2020 => null,
+            2019 => null, 2018 => 100, 2017 => 100, 2016 => null,
+            2015 => null, 2014 => 100, 2013 => 100, 2012 => 100,
+            2011 => 100, 2010 => 100,
+        ],
+
+        'Civic Education' => [
+            2023 => 100, 2022 => 100, 2021 => 96, 2020 => 91,
+            2019 => 98, 2018 => 100, 2017 => 100, 2016 => 100,
+            2015 => 100, 2014 => null, 2013 => null, 2012 => null,
+            2011 => null, 2010 => null,
+        ],
+    ]
+    ];
+    $grade9 = [
+        'title'=>'Subject Analysis - Grade 9',
+        'description'=>'At Lake Road PTA School, the Grade 9 Pupils who sit for the Grade 9 National Exams 98% of them obtains full certificates and proceed to grade 10.',
+       'data'=>[
+           'English' => [
+               2023 => 100, 2022 => 98, 2021 => 97, 2020 => 100,
+               2019 => 100, 2018 => 100, 2017 => 100, 2016 => 100,
+               2015 => 100, 2014 => 100, 2013 => 98.2, 2012 => 100,
+               2011 => 100, 2010 => 100,
+           ],
+
+           'Mathematics' => [
+               2023 => 79, 2022 => 83, 2021 => 77, 2020 => 87,
+               2019 => 85, 2018 => 55, 2017 => 54, 2016 => 72,
+               2015 => 56.6, 2014 => 83, 2013 => 81.8, 2012 => 75,
+               2011 => 82, 2010 => 92.6,
+           ],
+
+           'Integrated Science' => [
+               2023 => 94, 2022 => 95, 2021 => 84, 2020 => 100,
+               2019 => 100, 2018 => 97, 2017 => 94, 2016 => 100,
+               2015 => 100, 2014 => 92, 2013 => 96.4, 2012 => 96,
+               2011 => 100, 2010 => 100,
+           ],
+
+           'Social Studies' => [
+               2023 => 96, 2022 => 98, 2021 => 97, 2020 => 100,
+               2019 => 98, 2018 => 74, 2017 => 89, 2016 => 96,
+               2015 => 96.3, 2014 => null, 2013 => null, 2012 => null,
+               2011 => null, 2010 => null,
+           ],
+
+           'Business Studies' => [
+               2023 => 96, 2022 => 95, 2021 => 100, 2020 => 97,
+               2019 => 100, 2018 => 100, 2017 => 97, 2016 => 93,
+               2015 => 92.6, 2014 => null, 2013 => null, 2012 => null,
+               2011 => null, 2010 => null,
+           ],
+
+           'Art' => [
+               2023 => 100, 2022 => 100, 2021 => 100, 2020 => 100,
+               2019 => 100, 2018 => 100, 2017 => 100, 2016 => null,
+               2015 => 100, 2014 => 100, 2013 => 100, 2012 => 100,
+               2011 => 100, 2010 => 100,
+           ],
+
+           'French' => [
+               2023 => 71, 2022 => 100, 2021 => 100, 2020 => 90,
+               2019 => 88, 2018 => 100, 2017 => 94, 2016 => 100,
+               2015 => 98.1, 2014 => 100, 2013 => 97.7, 2012 => 86,
+               2011 => 97, 2010 => 92.6,
+           ],
+
+           'Religious Education' => [
+               2023 => 100, 2022 => 97, 2021 => 94, 2020 => 100,
+               2019 => 100, 2018 => 100, 2017 => 89, 2016 => 88,
+               2015 => 98.1, 2014 => 100, 2013 => 100, 2012 => 100,
+               2011 => 100, 2010 => 100,
+           ],
+
+           'Computer Studies' => [
+               2023 => 98, 2022 => 98, 2021 => 100, 2020 => 97,
+               2019 => 98, 2018 => 97, 2017 => 97, 2016 => 100,
+               2015 => 100, 2014 => null, 2013 => null, 2012 => null,
+               2011 => null, 2010 => null,
+           ],
+
+           'Design & Technology' => [
+               2023 => 100, 2022 => 100, 2021 => 100, 2020 => 100,
+               2019 => 100, 2018 => 100, 2017 => 82, 2016 => null,
+               2015 => null, 2014 => null, 2013 => null, 2012 => null,
+               2011 => null, 2010 => null,
+           ],
+
+           'Music' => [
+               2023 => 100, 2022 => 78, 2021 => 100, 2020 => 92,
+               2019 => 100, 2018 => 100, 2017 => 100, 2016 => null,
+               2015 => null, 2014 => null, 2013 => null, 2012 => null,
+               2011 => null, 2010 => null,
+           ],
+       ]
+    ];
+    return [
+        'grade12'=>$grade12,
+        'grade9'=>$grade9
+    ];
+
+}
+
+function gecFees(){
+    $eczCharges = [
+        'code' => 'A',
+        'board' => 'ECZ',
+        'charges' => [
+            [
+                'description' => 'Entry Fee',
+                'amount' => 75.00,
+                'currency' => 'K'
+            ],
+            [
+                'description' => 'Subject Fee',
+                'amount' => 120.00,
+                'currency' => 'K'
+            ]
+        ]
+    ];
+    $schoolCharges = [
+        'code' => 'B',
+        'source' => 'School',
+        'charges' => [
+            [
+                'description' => 'Centre Fee',
+                'amount' => 300.00,
+                'currency' => 'K'
+            ],
+            [
+                'description' => 'Fee/Practical (Science, Biology, Chemistry or Physics)',
+                'amount' => 200.00,
+                'currency' => 'K'
+            ]
+        ]
+    ];
+    $candidateFees = [
+        'currency' => 'ZMW',
+        'subjects_count' => 4,
+        'items' => [
+            [
+                'item' => 1,
+                'description' => 'Compulsory Payments',
+                'entry_fee' => 75.00,
+                'centre_fee' => 300.00,
+                'subject_fee' => 0.00,
+                'practical_fee' => 0.00,
+                'total' => 375.00,
+            ],
+            [
+                'item' => 2,
+                'description' => 'Mathematics (4024)',
+                'entry_fee' => 0.00,
+                'centre_fee' => 0.00,
+                'subject_fee' => 120.00,
+                'practical_fee' => 0.00,
+                'total' => 120.00,
+            ],
+            [
+                'item' => 3,
+                'description' => 'Biology (5090)',
+                'entry_fee' => 0.00,
+                'centre_fee' => 0.00,
+                'subject_fee' => 120.00,
+                'practical_fee' => 200.00,
+                'total' => 320.00,
+            ],
+            [
+                'item' => 4,
+                'description' => 'Science (Physics & Chemistry)',
+                'entry_fee' => 0.00,
+                'centre_fee' => 0.00,
+                'subject_fee' => 120.00,
+                'practical_fee' => 200.00,
+                'total' => 320.00,
+            ],
+            [
+                'item' => 5,
+                'description' => 'English Language (1121)',
+                'entry_fee' => 0.00,
+                'centre_fee' => 0.00,
+                'subject_fee' => 120.00,
+                'practical_fee' => 0.00,
+                'total' => 120.00,
+            ],
+        ],
+        'grand_total' => 1255.00,
+    ];
+
+
+    return [
+        'eczCharges' => $eczCharges,
+        'schoolCharges' => $schoolCharges,
+        'candidateFees' => $candidateFees,
+    ];
+}
+
+
 
 function primarySEN()
 {
@@ -1438,6 +1851,196 @@ function primaryTeachers()
             'image' => 'petronella_mulenga.jpg',
         ],
     ];
+}
+function secondaryTeachers()
+{
+    return [
+        [
+            'name' => 'Mr Muyanjilwa Mugode',
+            'position' => 'HOD',
+            'section' => 'Social Sciences',
+            'qualification' => 'Bachelor of Arts in Education',
+            'subjects' => 'Civic Education, History, Social Studies',
+            'image' => 'muyanjilwa_mugode.jpg',
+        ],
+        [
+            'name' => 'Mrs Sarah Banda',
+            'position' => 'Acting HOD',
+            'section' => 'Natural Sciences',
+            'qualification' => 'Bachelor of Science (Chemistry & Biology)',
+            'subjects' => 'Science',
+            'image' => 'sarah_banda.jpg',
+        ],
+        [
+            'name' => 'Mr Mathews S Bwalya',
+            'position' => 'HOD',
+            'section' => 'Maths & Computer Science',
+            'qualification' => 'Masters in Computer Science',
+            'subjects' => 'Computer Science',
+            'image' => 'mathews_bwalya.jpg',
+        ],
+        [
+            'name' => 'Mrs Given Somali',
+            'position' => 'Acting HOD',
+            'section' => 'Literature & Languages',
+            'qualification' => 'Bachelor of Education (English)',
+            'subjects' => 'English',
+            'image' => 'given_somali.jpg',
+        ],
+        [
+            'name' => 'Mrs Olipa Simbeye',
+            'position' => 'Teacher',
+            'section' => null,
+            'qualification' => 'Bachelor of Education',
+            'subjects' => 'Mathematics',
+            'image' => 'olipa_simbeye.jpg',
+        ],
+        [
+            'name' => 'Mr Chipili Lupandala',
+            'position' => 'Teacher',
+            'section' => null,
+            'qualification' => 'Bachelor of Arts with Education',
+            'subjects' => 'Mathematics',
+            'image' => 'chipili_lupandala.jpg',
+        ],
+        [
+            'name' => 'Mrs Elizabeth Chiti',
+            'position' => 'Teacher',
+            'section' => null,
+            'qualification' => 'Bachelor of Arts in Education',
+            'subjects' => 'Physics, Integrated Science',
+            'image' => 'elizabeth_chiti.jpg',
+        ],
+        [
+            'name' => 'Mrs Tiza Mulubwa',
+            'position' => 'Teacher',
+            'section' => null,
+            'qualification' => 'Bachelor of Theology & Education',
+            'subjects' => 'Religious Education, English',
+            'image' => 'tiza_mulubwa.jpg',
+        ],
+        [
+            'name' => 'Mr Vwalika Canaan',
+            'position' => 'Teacher',
+            'section' => null,
+            'qualification' => 'Bachelor of Arts in Education',
+            'subjects' => 'Civic Education, History',
+            'image' => 'vwalika_canaan.jpg',
+        ],
+        [
+            'name' => 'Ms Joan Chishala',
+            'position' => 'Teacher',
+            'section' => null,
+            'qualification' => 'Bachelor of Special Education (Linguistic & African Languages)',
+            'subjects' => 'English',
+            'image' => 'joan_chishala_secondary.jpg',
+        ],
+        [
+            'name' => 'Mr Francis Musonda',
+            'position' => 'Teacher',
+            'section' => null,
+            'qualification' => 'Bachelor of Education (Mathematics)',
+            'subjects' => 'Mathematics',
+            'image' => 'francis_musonda.jpg',
+        ],
+        [
+            'name' => 'Mr Davies Chomba',
+            'position' => 'Teacher',
+            'section' => null,
+            'qualification' => 'Bachelor of Science',
+            'subjects' => 'Chemistry, Physics',
+            'image' => 'davies_chomba.jpg',
+        ],
+        [
+            'name' => 'Ms Natasha Chileshe',
+            'position' => 'Teacher',
+            'section' => null,
+            'qualification' => 'Bachelor of Arts in Education',
+            'subjects' => 'English, Religious Education',
+            'image' => 'natasha_chileshe.jpg',
+        ],
+        [
+            'name' => 'Mr Innocent Chitwa',
+            'position' => 'Teacher',
+            'section' => null,
+            'qualification' => 'Bachelor of Special Education',
+            'subjects' => 'Geography',
+            'image' => 'innocent_chitwa_secondary.jpg',
+        ],
+        [
+            'name' => 'Mr Felix Nimpe Chasaya',
+            'position' => 'Teacher',
+            'section' => null,
+            'qualification' => 'Bachelor of Arts in Education',
+            'subjects' => 'French, Physical Education',
+            'image' => 'felix_chasaya.jpg',
+        ],
+        [
+            'name' => 'Mr Bernard Mangenda',
+            'position' => 'Science Lab Technician',
+            'section' => 'Science Laboratory',
+            'qualification' => 'Advanced Certificate in Science Laboratory',
+            'subjects' => 'Laboratory Management',
+            'image' => 'bernard_mangenda.jpg',
+        ],
+        [
+            'name' => 'Mr Enock Kamandala',
+            'position' => 'Teacher',
+            'section' => null,
+            'qualification' => 'Secondary School Diploma',
+            'subjects' => 'GMD, Design & Technology',
+            'image' => 'enock_kamandala.jpg',
+        ],
+        [
+            'name' => 'Ms Idah Tembo',
+            'position' => 'Teacher',
+            'section' => null,
+            'qualification' => 'Diploma in Education',
+            'subjects' => 'Physical Education, Art',
+            'image' => 'idah_tembo.jpg',
+        ],
+        [
+            'name' => 'Mr Sam Sichalwe',
+            'position' => 'Teacher',
+            'section' => null,
+            'qualification' => 'Diploma in Business Studies',
+            'subjects' => 'Principles of Accounts, Business Studies, Commerce',
+            'image' => 'sam_sichalwe.jpg',
+        ],
+        [
+            'name' => 'Mr Felix Mwewa',
+            'position' => 'Teacher',
+            'section' => null,
+            'qualification' => 'Diploma in Art and Design / Physical',
+            'subjects' => 'Art & Design, Physical Education',
+            'image' => 'felix_mwewa.jpg',
+        ],
+        [
+            'name' => 'Mr Sipho Chipeso',
+            'position' => 'Teacher',
+            'section' => null,
+            'qualification' => "Music Teacher's Diploma",
+            'subjects' => 'Music',
+            'image' => 'sipho_chipeso.jpg',
+        ],
+        [
+            'name' => 'Mr Chinyemba Chinyama',
+            'position' => 'Teacher',
+            'section' => null,
+            'qualification' => 'Bachelor of Commerce',
+            'subjects' => 'Commercials',
+            'image' => 'chinyemba_chinyama.jpg',
+        ],
+        [
+            'name' => 'Ms Petronella Mulenga',
+            'position' => 'Secretary',
+            'section' => null,
+            'qualification' => 'Diploma in Secretarial',
+            'subjects' => null,
+            'image' => 'petronella_mulenga_secondary.jpg',
+        ],
+    ];
+
 }
 
 function contactData() {

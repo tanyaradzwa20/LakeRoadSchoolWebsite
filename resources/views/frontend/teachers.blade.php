@@ -9,8 +9,8 @@
                     <div class="col-lg-3 col-md-6 col-sm-6">
                         <div class="rts__single--member">
                             <div class="rts__single--member--thumb rounded-10">
-                                <a href="{{ asset('assets/images/speaker/teacher__1.jpg') }}" class="view-btn">
-                                    <img src="{{ asset('assets/images/speaker/teacher__1.jpg') }}" alt="{{ $teacher['name'] }}">
+                                <a href="{{ asset('assets/images/speaker/teacher.jpg') }}" class="view-btn">
+                                    <img src="{{ asset('assets/images/speaker/teacher.jpg') }}" alt="{{ $teacher['name'] }}">
                                 </a>
                             </div>
                             <div class="rts__single--member--meta">

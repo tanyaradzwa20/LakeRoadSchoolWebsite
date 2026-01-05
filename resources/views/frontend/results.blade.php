@@ -6,6 +6,7 @@
         <div class="container">
             <div class="row">
                 <div class="semister-fee__content">
+                    @if($type == 'primary')
                     <h3 class="rts-section-title">Grade 7 National Examination Results</h3>
 
                     <div class="mb--50">
@@ -70,6 +71,61 @@
                             <li class="mb--10"><strong>(iii)</strong> All subject average scores were above 117/150</li>
                         </ul>
                     </div>
+                    @else
+                    <h3 class="rts-section-title">Secondary National Examination Results</h3>
+
+                    <div class="mb--50">
+                        <h5 class="title">The School's ECZ Ranking Position</h5>
+                        <p class="desc">
+                            The Examination Council of Zambia had ranked Lake Road PTA School among the BEST Top ten (10) Schools in Lusaka that had produced excellent RESULTS for the academic year 2016
+                        </p>
+                    </div>
+
+                    <div class="mb--50">
+                        <h5 class="title">National Results</h5>
+                        <p class="desc">
+                            Lake Road PTA School produces exceptional good results for the Examination Council of Zambia Exams.
+                        </p>
+                    </div>
+
+                    @foreach($data as $gradeKey => $grade)
+                        <div class="mb--50">
+                            <h5 class="title">{{ $grade['title'] }}</h5>
+                            <p class="desc">{{ $grade['description'] }}</p>
+
+                            <div class="rts-fee-chart mt--30">
+                                <div class="rts-fee-chart__content" style="overflow-x: auto;">
+                                    <table class="table">
+                                        <thead class="table-theme">
+                                            <tr>
+                                                <th>Subject</th>
+                                                @php
+                                                    $firstItem = reset($grade['data']);
+                                                    $years = is_array($firstItem) ? array_keys($firstItem) : [];
+                                                    rsort($years);
+                                                @endphp
+                                                @foreach($years as $year)
+                                                    <th>{{ $year }}</th>
+                                                @endforeach
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            @foreach($grade['data'] as $subject => $scores)
+                                                <tr>
+                                                    <td><strong>{{ $subject }}</strong></td>
+                                                    @foreach($years as $year)
+                                                        <td>{{ $scores[$year] ?? '-' }}{{ isset($scores[$year]) ? '%' : '' }}</td>
+                                                    @endforeach
+                                                </tr>
+                                            @endforeach
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    @endforeach
+
+                    @endif
                 </div>
             </div>
         </div>

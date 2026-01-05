@@ -31,20 +31,20 @@ class FrontendController extends Controller
 
     public function fees($type = 'primary')
     {
-        $data = $type == 'primary' ? primaryFees() : secondaryFees(); // Need to check if there is secondaryFees
+        $data = $type == 'primary' ? primaryFees() : secondaryFees();
         return view('frontend.fees',compact('data', 'type'));
 
     }
 
   public  function circulars($type = 'primary')
     {
-        $data = $type == 'primary' ? primaryCirculars() : primaryCirculars(); // Need to check if there is secondaryCirculars
+        $data = $type == 'primary' ? primaryCirculars() : secondryCirculars(); // Need to check if there is secondaryCirculars
         return view('frontend.circulars',compact('data', 'type'));
     }
 
     public function results($type = 'primary')
     {
-        $data = $type == 'primary' ? primaryResults() : primaryResults();
+        $data = $type == 'primary' ? primaryResults() : secondaryResults();
         return view('frontend.results',compact('data', 'type'));
     }
     public function sen($type = 'primary')
@@ -54,14 +54,23 @@ class FrontendController extends Controller
     }
 
     public function teachers($type = 'primary'){
-        $data = $type == 'primary' ? primaryTeachers() : primaryTeachers();
+        $data = $type == 'primary' ? primaryTeachers() : secondaryTeachers();
         return view('frontend.teachers',compact('data', 'type'));
 
+    }
+
+    public function gec(){
+        $data = gecFees();
+        return view('frontend.gec', compact('data'));
     }
 
     public function gallery($type = 'primary'){
         $data = galleryData();
         return view('frontend.gallery', compact('data', 'type'));
+    }
+
+    public function counselling(){
+        return view('frontend.counselling');
     }
 
 }

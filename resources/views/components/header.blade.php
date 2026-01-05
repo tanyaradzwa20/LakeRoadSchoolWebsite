@@ -52,7 +52,7 @@
                                                            <li><a href="{{route('sen',['primary'])}}">SEN</a></li>
 {{--                                                           <li><a href="#">Calendar</a></li>--}}
                                                            <li><a href="{{route('teachers',['primary'])}}">Teachers</a></li>
-{{--                                                           <li><a href="#">Facilities</a></li>--}}
+                                                           <li><a href="{{route('counselling')}}">Counselling</a></li>
                                                            <li><a href="{{route('gallery',['primary'])}}">Gallery</a></li>
                                                        </ul>
                                                    </li>
@@ -61,10 +61,12 @@
                                                        <ul class="submenu sub__style">
                                                            <li><a href="{{route('curriculum',['secondary'])}}">Curriculum</a></li>
                                                            <li><a href="{{route('fees',['secondary'])}}">Fees</a></li>
+                                                           <li><a href="{{route('gec',['secondary'])}}">GEC</a></li>
                                                            <li><a href="{{route('circulars',['secondary'])}}">Circulars</a></li>
                                                            <li><a href="{{route('results',['secondary'])}}">Results</a></li>
                                                            <li><a href="{{route('sen',['secondary'])}}">SEN</a></li>
                                                            <li><a href="{{route('teachers',['secondary'])}}">Teachers</a></li>
+                                                           <li><a href="{{route('counselling')}}">Counselling</a></li>
                                                            <li><a href="{{route('gallery',['secondary'])}}">Gallery</a></li>
                                                        </ul>
                                                    </li>

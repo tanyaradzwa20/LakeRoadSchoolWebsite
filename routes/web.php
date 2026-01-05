@@ -69,4 +69,6 @@ Route::controller(FrontendController::class)->group(function (){
     Route::get('/sen/{type?}', 'sen')->name('sen');
     Route::get('/teachers/{type?}', 'teachers')->name('teachers');
     Route::get('/gallery/{type?}', 'gallery')->name('gallery');
+    Route::get('/gec/{type?}', 'gec')->name('gec');
+    Route::get('/counselling', 'counselling')->name('counselling');
 });
