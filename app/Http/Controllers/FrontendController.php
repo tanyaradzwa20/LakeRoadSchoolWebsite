@@ -15,7 +15,8 @@ class FrontendController extends Controller
     }
 
     public function contact(){
-        return view('frontend.contact');
+        $data = contactData();
+        return view('frontend.contact', compact('data'));
     }
     public function store(){
         return view('frontend.store');
@@ -23,43 +24,44 @@ class FrontendController extends Controller
 
     public function curriculum($type = 'primary'){
 
-        $data=getPrimaryCurriculum();
-        return view('frontend.curriculum',compact('data'));
+        $data=$type=='primary'? getPrimaryCurriculum():secondaryCurriculumn();
+
+        return view('frontend.curriculum',compact('data','type'));
     }
 
     public function fees($type = 'primary')
     {
-        $data = primaryFees();
-        return view('frontend.fees',compact('data'));
+        $data = $type == 'primary' ? primaryFees() : secondaryFees(); // Need to check if there is secondaryFees
+        return view('frontend.fees',compact('data', 'type'));
 
     }
 
   public  function circulars($type = 'primary')
     {
-        $data=primaryCirculars();
-        return view('frontend.circulars',compact('data'));
+        $data = $type == 'primary' ? primaryCirculars() : primaryCirculars(); // Need to check if there is secondaryCirculars
+        return view('frontend.circulars',compact('data', 'type'));
     }
 
-    public function results()
+    public function results($type = 'primary')
     {
-        $data = primaryResults();
-        return view('frontend.results',compact('data'));
+        $data = $type == 'primary' ? primaryResults() : primaryResults();
+        return view('frontend.results',compact('data', 'type'));
     }
     public function sen($type = 'primary')
     {
-        $data = primarySEN();
-        return view('frontend.sen', compact('data'));
+        $data = $type == 'primary' ? primarySEN() : primarySEN();
+        return view('frontend.sen', compact('data', 'type'));
     }
 
     public function teachers($type = 'primary'){
-        $data = primaryTeachers();
-        return view('frontend.teachers',compact('data'));
+        $data = $type == 'primary' ? primaryTeachers() : primaryTeachers();
+        return view('frontend.teachers',compact('data', 'type'));
 
     }
 
     public function gallery($type = 'primary'){
         $data = galleryData();
-        return view('frontend.gallery', compact('data'));
+        return view('frontend.gallery', compact('data', 'type'));
     }
 
 }

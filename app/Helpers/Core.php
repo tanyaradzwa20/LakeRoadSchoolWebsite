@@ -339,6 +339,206 @@ function getPrimaryCurriculum()
 
 }
 
+function secondaryCurriculumn()
+{
+    $juniorSecondarySubjects = [
+        'grade' => [8, 9],
+
+        'compulsory_subjects' => [
+            [
+                'code' => 609,
+                'name' => 'Business Studies',
+            ],
+            [
+                'code' => 402,
+                'name' => 'Computer Studies',
+            ],
+            [
+                'code' => 101,
+                'name' => 'English Language',
+            ],
+            [
+                'code' => 502,
+                'name' => 'Integrated Science',
+            ],
+            [
+                'code' => 401,
+                'name' => 'Mathematics',
+            ],
+            [
+                'code' => 204,
+                'name' => 'Religious Education',
+            ],
+            [
+                'code' => 207,
+                'name' => 'Social Studies',
+            ],
+        ],
+
+        'optional_subjects' => [
+            [
+                'code' => 205,
+                'name' => 'Art and Design (Art)',
+            ],
+            [
+                'code' => 608,
+                'name' => 'Design and Technology (D & T)',
+            ],
+            [
+                'code' => 305,
+                'name' => 'French Language',
+            ],
+            [
+                'code' => 208,
+                'name' => 'Musical Arts Education (Music)',
+            ],
+            [
+                'code' => 601,
+                'name' => 'Home Economics',
+            ],
+        ],
+
+        'summary' => [
+            'compulsory' => 7,
+            'optional' => 1,
+            'total' => 8,
+        ],
+
+        'rules' => [
+            'take_all_compulsory' => true,
+            'optional_required' => 1,
+            'total_subjects_required' => 8,
+        ],
+    ];
+    $seniorSecondarySubjects = [
+        'grades' => [10, 11, 12],
+
+        'pathways' => [
+
+            'business_studies_oriented' => [
+                'compulsory_subjects' => [
+                    ['code' => 4024, 'name' => 'Mathematics'],
+                    ['code' => 1121, 'name' => 'English'],
+                    ['code' => 5090, 'name' => 'Biology'],
+                    ['code' => 5070, 'name' => 'Chemistry'],
+                    ['code' => 5024, 'name' => 'Physics'],
+                    ['code' => 2030, 'name' => 'Civic Education'],
+                    ['code' => 7110, 'name' => 'Principles of Accounts'],
+                ],
+
+                'optional_subjects' => [
+                    'option_a' => [
+                        ['code' => 6010, 'name' => 'Art'],
+                        ['code' => 6020, 'name' => 'Music'],
+                        ['code' => 6045, 'name' => 'Design & Technology'],
+                        ['code' => 4030, 'name' => 'Additional Math'],
+                        ['code' => 2046, 'name' => 'Religious Education'],
+                    ],
+                    'option_b' => [
+                        ['code' => 3016, 'name' => 'French'],
+                        ['code' => 2218, 'name' => 'Geography'],
+                        ['code' => 2167, 'name' => 'History'],
+                        ['code' => 2011, 'name' => 'Literature'],
+                        ['code' => 7100, 'name' => 'Commerce'],
+                    ],
+                ],
+            ],
+
+            'technology_oriented' => [
+                'compulsory_subjects' => [
+                    ['code' => 4024, 'name' => 'Mathematics'],
+                    ['code' => 1121, 'name' => 'English'],
+                    ['code' => 5090, 'name' => 'Biology'],
+                    ['code' => 5070, 'name' => 'Chemistry'],
+                    ['code' => 5024, 'name' => 'Physics'],
+                    ['code' => 2030, 'name' => 'Civic Education'],
+                    ['code' => 7010, 'name' => 'Computer Studies'],
+                ],
+
+                'optional_subjects' => [
+                    'option_a' => [
+                        ['code' => 6010, 'name' => 'Art'],
+                        ['code' => 6020, 'name' => 'Music'],
+                        ['code' => 6045, 'name' => 'Design & Technology'],
+                        ['code' => 4030, 'name' => 'Additional Math'],
+                        ['code' => 2046, 'name' => 'Religious Education'],
+                    ],
+                    'option_b' => [
+                        ['code' => 3016, 'name' => 'French'],
+                        ['code' => 2218, 'name' => 'Geography'],
+                        ['code' => 2167, 'name' => 'History'],
+                        ['code' => 2011, 'name' => 'Literature'],
+                        ['code' => 7100, 'name' => 'Commerce'],
+                    ],
+                ],
+            ],
+        ],
+
+        'rules' => [
+            'compulsory_subjects' => 7,
+            'optional_subjects_required' => 2,
+            'optional_selection' => [
+                'option_a' => 1,
+                'option_b' => 1,
+            ],
+            'total_subjects' => 9,
+            'term_two_science_rule' => 'If Pure Science (Chemistry & Physics) is continued, one optional subject must be dropped. If Science is taken instead, optional subjects are retained.',
+        ],
+    ];
+    $seniorLevel = [
+        'compulsory_subjects' => [
+            'Biology',
+            [
+                'choice' => [
+                    'Chemistry',
+                    'Physics',
+                    'Combined Science',
+                ],
+            ],
+            'English Language',
+            'Mathematics',
+            'Computer Science',
+            'Global Citizenship',
+        ],
+
+        'options' => [
+            'option_a' => [
+                'Literature in English',
+                'Religious Studies',
+                'Commerce',
+                'Geography/History',
+                'French',
+            ],
+            'option_b' => [
+                'Music',
+                'Design & Technology',
+                'Further Pure Mathematics',
+                'Art',
+                'Accounting',
+            ],
+        ],
+
+        'co_curricular_activities' => [
+            'Physical Education',
+            'Sports',
+            'Clubs',
+        ],
+
+        'rules' => [
+            'minimum_subjects' => 7,
+            'maximum_subjects' => 8,
+            'option_change_window' => '3 weeks after opening',
+            'advisory_note' => 'Students should consider career options and subject combinations carefully before final selection.',
+        ],
+    ];
+
+return [
+    'seniorLevel' => $seniorLevel,
+    'seniorSecondarySubjects' => $seniorSecondarySubjects,
+    'juniorSecondarySubjects'=>$juniorSecondarySubjects
+];
+}
+
 function primaryFees()
 {
     $nursery = [
@@ -551,6 +751,152 @@ function primaryFees()
         "reception" => $reception,
         "grades" => $grades,
     ];
+}
+
+
+function secondaryFees()
+{
+    $grade8 =[
+        'title'=>'Grade 8 - 9 Fees',
+        'description'=>'',
+        'data'=>
+            [
+                'returning_pupils' => [
+                    'title' => 'Returning Pupils Fees',
+                    'fees' => [
+                        [
+                            'name' => 'Tuition Fee',
+                            'amount' => 13900,
+                            'currency' => 'ZMW',
+                            'type' => 'termly',
+                        ],
+                        [
+                            'name' => 'PTA Fund',
+                            'amount' => 1500,
+                            'currency' => 'ZMW',
+                            'type' => 'yearly_per_child',
+                        ],
+                    ],
+                    'notes' => [
+                        'Pay the Tuition fee of ZMW 13,900.00 during school holidays or when school opens. Pupils will not be allowed in class until fees are fully paid.',
+                        'Pay next term’s school fees during the current term to enjoy a 5% Early Bird discount and pay ZMW 13,205.00.',
+                    ],
+                ],
+
+                'new_pupils' => [
+                    'title' => 'New Pupils Fees',
+                    'fees' => [
+                        [
+                            'name' => 'Tuition Fee',
+                            'amount' => 13900,
+                            'currency' => 'ZMW',
+                            'type' => 'termly',
+                        ],
+                        [
+                            'name' => 'Assessment',
+                            'amount' => 500,
+                            'currency' => 'ZMW',
+                            'type' => 'one_off',
+                        ],
+                        [
+                            'name' => 'Enrolment',
+                            'amount' => 3000,
+                            'currency' => 'ZMW',
+                            'type' => 'one_off',
+                        ],
+                        [
+                            'name' => 'Project',
+                            'amount' => 3000,
+                            'currency' => 'ZMW',
+                            'type' => 'one_off_per_family',
+                        ],
+                        [
+                            'name' => 'PTA Fund',
+                            'amount' => 1500,
+                            'currency' => 'ZMW',
+                            'type' => 'yearly_per_child',
+                        ],
+                    ],
+                    'notes' => [
+                        'For first-time admission into Grade 8, the total payable amount is ZMW 21,900.00.',
+                        'For each subsequent school term in Grade 8, only the Tuition Fee of ZMW 13,900.00 will be paid.',
+                    ],
+                ],
+            ]
+    ];
+    $grade10 =[
+        'title'=>'Grade 10 - 12 Fees',
+        'description'=>'',
+        'data'=> [
+
+                'returning_pupils' => [
+                    'title' => 'Returning Pupils Fees',
+                    'fees' => [
+                        [
+                            'name' => 'Tuition Fee',
+                            'amount' => 15100,
+                            'currency' => 'ZMW',
+                            'type' => 'termly',
+                        ],
+                        [
+                            'name' => 'PTA Fund',
+                            'amount' => 1500,
+                            'currency' => 'ZMW',
+                            'type' => 'yearly_per_child',
+                        ],
+                    ],
+                    'notes' => [
+                        'Pay the Tuition fee of ZMW 15,100.00 during school holidays or when school opens. Pupils will not be allowed in class until fees are paid in full.',
+                        'Pay next term’s school fees during the current term to enjoy a 5% Early Bird discount and pay ZMW 14,100.00.',
+                    ],
+                ],
+
+                'new_pupils' => [
+                    'title' => 'New Pupils Fees',
+                    'fees' => [
+                        [
+                            'name' => 'Tuition Fee',
+                            'amount' => 15100,
+                            'currency' => 'ZMW',
+                            'type' => 'termly',
+                        ],
+                        [
+                            'name' => 'Assessment',
+                            'amount' => 500,
+                            'currency' => 'ZMW',
+                            'type' => 'one_off',
+                        ],
+                        [
+                            'name' => 'Enrolment',
+                            'amount' => 3000,
+                            'currency' => 'ZMW',
+                            'type' => 'one_off',
+                        ],
+                        [
+                            'name' => 'Project',
+                            'amount' => 3000,
+                            'currency' => 'ZMW',
+                            'type' => 'one_off_per_family',
+                        ],
+                        [
+                            'name' => 'PTA Fund',
+                            'amount' => 1500,
+                            'currency' => 'ZMW',
+                            'type' => 'yearly_per_child',
+                        ],
+                    ],
+                    'notes' => [
+                        'For first-time admission into the school, the total payable amount is ZMW 23,100.00.',
+                        'For each subsequent school term, only the Tuition Fee of ZMW 15,100.00 will be paid.',
+                    ],
+                ],
+            ]
+    ];
+
+return [
+  'grade8'=>$grade8,
+  'grade10'=>$grade10
+];
 }
 
 function primaryCirculars(){
@@ -1092,6 +1438,25 @@ function primaryTeachers()
             'image' => 'petronella_mulenga.jpg',
         ],
     ];
+}
 
-
+function contactData() {
+    return [
+        'address' => 'Corner of Lake Road & Leopards Hill Road, Woodlands, Lusaka, Zambia',
+        'phone' => [
+            '+260 211 263 361',
+            '+260 211 263 362',
+            '+260 977 770 000'
+        ],
+        'email' => [
+            'info@lakeroadptaschool.ac.zm',
+            'accounts@lakeroadptaschool.ac.zm'
+        ],
+        'opening_hours' => [
+            'Monday - Friday: 07:30 - 16:30',
+            'Saturday: Closed',
+            'Sunday: Closed'
+        ],
+        'map_link' => 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3846.136371534062!2d28.351221474889617!3d-15.42436858508101!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1940149090909091%3A0x1234567890abcdef!2sLake%20Road%20PTA%20School!5e0!3m2!1sen!2szm!4v1704364000000!5m2!1sen!2szm'
+    ];
 }

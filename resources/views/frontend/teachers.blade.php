@@ -1,5 +1,5 @@
 <x-app>
-    <x-breadcrumb class="breadcrumb-height breadcumb-bg" image="breadcrumb.jpg" title="Our Teachers" page="Teachers" />
+    <x-breadcrumb class="breadcrumb-height breadcumb-bg" image="breadcrumb.jpg" title="Our {{ ucfirst($type) }} Teachers" page="Teachers" />
 
     <!-- teacher section -->
     <div class="rts-faculty rts-section-padding">

@@ -45,7 +45,6 @@ Route::controller(PageController::class)->group(function (){
     Route::get('program-single', 'programSingle')->name('program-single');
     Route::get('notice-details', 'noticeDetails')->name('notice-details');
     Route::get('campus-life', 'campusLife')->name('campus-life');
-    Route::get('contact', 'contact')->name('contact');
     Route::get('department-details', 'departmentDetails')->name('department-details');
     Route::get('event-details', 'eventDetails')->name('event-details');
     Route::get('event', 'event')->name('event');
@@ -66,8 +65,8 @@ Route::controller(FrontendController::class)->group(function (){
     Route::get('/curriculum/{type?}', 'curriculum')->name('curriculum');
     Route::get('/fees/{type?}', 'fees')->name('fees');
     Route::get('/circulars/{type?}', 'circulars')->name('circulars');
-    Route::get('/results', 'results')->name('results');
-    Route::get('/sen', 'sen')->name('sen');
-    Route::get('/teachers', 'teachers')->name('teachers');
-    Route::get('/gallery', 'gallery')->name('gallery');
+    Route::get('/results/{type?}', 'results')->name('results');
+    Route::get('/sen/{type?}', 'sen')->name('sen');
+    Route::get('/teachers/{type?}', 'teachers')->name('teachers');
+    Route::get('/gallery/{type?}', 'gallery')->name('gallery');
 });

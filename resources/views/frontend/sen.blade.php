@@ -1,5 +1,5 @@
 <x-app>
-    <x-breadcrumb class="breadcrumb-height breadcumb-bg" image="breadcrumb.jpg" title="Special Education Needs (SEN)" page="SEN" />
+    <x-breadcrumb class="breadcrumb-height breadcumb-bg" image="breadcrumb.jpg" title="{{ ucfirst($type) }} Special Education Needs (SEN)" page="SEN" />
 
     <!-- sen section -->
     <div class="rts-about-university rts-section-padding">

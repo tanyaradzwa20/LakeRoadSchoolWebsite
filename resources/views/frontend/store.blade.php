@@ -144,13 +144,22 @@
                             @foreach($products as $product)
                             <div class="col-lg-4 col-md-6 col-sm-6">
                                 <div class="rts-product-one">
+                                    @php
+                                        $productId = strtolower(str_replace([' ', '(', ')'], ['-', '', ''], $product['name']));
+                                    @endphp
                                     <div class="product-image">
                                         <a href="#"><img src="{{ asset($product['image']) }}" alt="product"></a>
                                         @if($product['badge'])
                                             <span class="badge">{{ $product['badge'] }}</span>
                                         @endif
                                         <div class="product-actions">
-                                            <a href="#" class="action-btn"><i class="fa-regular fa-cart-shopping"></i></a>
+                                            <a href="#" class="action-btn add-to-cart-btn"
+                                               data-id="{{ $productId }}"
+                                               data-name="{{ $product['name'] }}"
+                                               data-price="{{ $product['price'] }}"
+                                               data-image="{{ asset($product['image']) }}">
+                                                <i class="fa-regular fa-cart-shopping"></i>
+                                            </a>
                                             <a href="#" class="action-btn"><i class="fa-regular fa-heart"></i></a>
                                             <a href="#" class="action-btn"><i class="fa-regular fa-eye"></i></a>
                                         </div>

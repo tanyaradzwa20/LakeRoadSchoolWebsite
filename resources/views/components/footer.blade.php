@@ -12,9 +12,9 @@
                         A perfect place for the education of any child. We are passionate about education and dedicated to providing high-quality learning for all students.
                     </p>
                     <div class="footer__widget--contact">
-                        <p class="mb--10"><i class="fa-light fa-location-dot me-2"></i> Corner of Lake Road & Leopards Hill Road, Lusaka, Zambia</p>
-                        <p class="mb--10"><i class="fa-light fa-phone me-2"></i> <a href="tel:+260965198924">+260 965198924</a></p>
-                        <p class="mb--10"><i class="fa-light fa-envelope me-2"></i> <a href="mailto:lakeroad@lrptas.ac.zm">lakeroad@lrptas.ac.zm</a></p>
+                        <p class="mb--10"><i class="fa-light fa-location-dot me-2"></i> {{ contactData()['address'] }}</p>
+                        <p class="mb--10"><i class="fa-light fa-phone me-2"></i> <a href="tel:{{ str_replace(' ', '', contactData()['phone'][0]) }}">{{ contactData()['phone'][0] }}</a></p>
+                        <p class="mb--10"><i class="fa-light fa-envelope me-2"></i> <a href="mailto:{{ contactData()['email'][0] }}">{{ contactData()['email'][0] }}</a></p>
                     </div>
                     <div class="footer__widget--social mt--20">
                         <ul class="social d-flex list-unstyled gap-3">

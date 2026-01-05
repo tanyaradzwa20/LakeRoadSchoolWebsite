@@ -11,7 +11,7 @@
                          <div class="header__content">
                               <div class="header__content__top">
                                    <div class="header__content__top__left">
-                                        <a href="#"><i class="fa-classic fa-light fa-location-dot"></i> Corner of Lake Road & Leopards Hill Road, Woodlands, Lusaka, Zambia</a>
+                                        <a href="#"><i class="fa-classic fa-light fa-location-dot"></i> {{ contactData()['address'] }}</a>
                                    </div>
                                    <div class="header__content__top__right">
                                         <div class="follow_us">
@@ -24,19 +24,10 @@
                                              <div id="search-btn" class="search__trigger">
                                                   <i class="fa-sharp fa-light fa-magnifying-glass"></i>
                                               </div>
-                                             <div id="langSwitcher" class="lang__trigger">
-                                                  <span class="selected__lang">En</span>
-                                                  <i class="fa-light fa-globe"></i>
-                                                  <div class="translate__lang">
-                                                      <ul>
-                                                          <li><a href="#" class="active">En</a></li>
-                                                          <li><a href="#">Fr</a></li>
-                                                          <li><a href="#">Sp</a></li>
-                                                          <li><a href="#">Ru</a></li>
-                                                      </ul>
-                                                  </div>
+                                              <div id="cart-trigger" class="cart__trigger" style="margin-left: 20px; cursor: pointer; position: relative;">
+                                                  <i class="fa-regular fa-cart-shopping"></i>
+                                                  <span class="cart-count" style="position: absolute; top: -10px; right: -10px; background: var(--rt-primary, #890C25); color: #fff; border-radius: 50%; width: 20px; height: 20px; display: flex; align-items: center; justify-content: center; font-size: 10px; font-weight: 700;">0</span>
                                               </div>
-
                                         </div>
                                    </div>
                               </div>
@@ -66,21 +57,15 @@
                                                        </ul>
                                                    </li>
                                                    <li class="navigation__menu--item has-child has-arrow">
-                                                       <a href="{{ route('senior-school') }}" class="navigation__menu--item__link">Secondary School</a>
+                                                       <a href="#" class="navigation__menu--item__link">Secondary School</a>
                                                        <ul class="submenu sub__style">
-{{--                                                           <li><a href="#">Holiday Tuitions</a></li>--}}
-{{--                                                           <li><a href="#">Curriculum</a></li>--}}
-{{--                                                           <li><a href="#">Fees</a></li>--}}
-{{--                                                           <li><a href="#">Uniforms</a></li>--}}
-{{--                                                           <li><a href="#">GCE Fees</a></li>--}}
-{{--                                                           <li><a href="#">Results</a></li>--}}
-{{--                                                           <li><a href="#">Circulars</a></li>--}}
-{{--                                                           <li><a href="#">Activities</a></li>--}}
-{{--                                                           <li><a href="#">Counselling & Guidance</a></li>--}}
-{{--                                                           <li><a href="#">Calendar</a></li>--}}
-{{--                                                           <li><a href="#">Teachers</a></li>--}}
-{{--                                                           <li><a href="#">Facilities</a></li>--}}
-{{--                                                           <li><a href="#">Gallery</a></li>--}}
+                                                           <li><a href="{{route('curriculum',['secondary'])}}">Curriculum</a></li>
+                                                           <li><a href="{{route('fees',['secondary'])}}">Fees</a></li>
+                                                           <li><a href="{{route('circulars',['secondary'])}}">Circulars</a></li>
+                                                           <li><a href="{{route('results',['secondary'])}}">Results</a></li>
+                                                           <li><a href="{{route('sen',['secondary'])}}">SEN</a></li>
+                                                           <li><a href="{{route('teachers',['secondary'])}}">Teachers</a></li>
+                                                           <li><a href="{{route('gallery',['secondary'])}}">Gallery</a></li>
                                                        </ul>
                                                    </li>
                                                    <li class="navigation__menu--item">

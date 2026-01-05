@@ -1,12 +1,12 @@
 <x-app>
-    <x-breadcrumb class="breadcrumb-height breadcumb-bg" image="breadcrumb.jpg" title="School Fees" page="Fees" />
+    <x-breadcrumb class="breadcrumb-height breadcumb-bg" image="breadcrumb.jpg" title="{{ ucfirst($type) }} School Fees" page="Fees" />
 
     <!-- fees section -->
     <div class="semister-fee pb--120 pb__md--80 pt--120 pt__md--80">
         <div class="container">
             <div class="row">
                 <div class="semister-fee__content">
-                    <h3 class="rts-section-title">Primary School Fees</h3>
+                    <h3 class="rts-section-title">{{ ucfirst($type) }} School Fees</h3>
                     <p class="desc mb--50">
                         Lake Road PTA School offers competitive fees for our high-quality educational programs. Fees are structured to ensure the sustainability of our school while providing the best possible environment for our learners.
                     </p>
@@ -33,6 +33,7 @@
                                     </div>
 
                                     @foreach($feeGroup['data'] as $subKey => $subGroup)
+{{--                                        @dd($subGroup)--}}
                                         <div class="mb--50">
                                             <h6 class="title">{{ $subGroup['title'] }}</h6>
                                             <table class="table">
@@ -86,6 +87,7 @@
                             </ul>
                         </div>
 
+                        @if($type == 'primary')
                         <div class="mb--50">
                             <p class="desc">SEN Fee is charged in addition to the standard school fee for the term to every child registered for learning support:</p>
                             <h6>SEN Fees</h6>
@@ -112,6 +114,30 @@
                                 </tbody>
                             </table>
                         </div>
+                        @else
+                        <div class="mb--50">
+                            <p class="desc">SEN Fee is charged in addition to the standard school fee for the term to every child registered for learning support:</p>
+                            <h6>SEN Fees</h6>
+                            <table class="table">
+                                <thead class="table-theme">
+                                    <tr>
+                                        <th>Level</th>
+                                        <th>Amount</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td>1) Grade 8 - 9</td>
+                                    <td>K2,500/Learner</td>
+                                </tr>
+                                <tr>
+                                    <td>1) Grade 10 - 12</td>
+                                    <td>K2,500/Learner</td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        @endif
 
                         <div class="mb--50">
                             <p class="desc">All School fees MUST be paid ONLY in the following School Bank Accounts in accordance with the School Fees Policy:</p>
