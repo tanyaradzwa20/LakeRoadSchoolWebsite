@@ -3,7 +3,9 @@
 use App\Http\Controllers\FrontendController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PageController;
+use Illuminate\Support\Facades\URL;
 
+use Illuminate\Support\Facades\App as FacadesApp;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -14,6 +16,12 @@ use App\Http\Controllers\PageController;
 | contains the "web" middleware group. Now create something great!
 |
 */
+if(FacadesApp::environment('production')) {
+    URL::forceScheme('https');
+}
+
+
+
 Route::controller(PageController::class)->group(function (){
     Route::get('/', 'indexSc')->name('index');
     Route::get('index-two', 'indexTwo')->name('index-two');
