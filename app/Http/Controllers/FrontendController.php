@@ -42,6 +42,27 @@ class FrontendController extends Controller
         return view('frontend.circulars',compact('data', 'type'));
     }
 
+
+    public function alumni()
+    {
+        return view('frontend.alumni');
+
+    }
+
+
+    public function curricular()
+    {
+        return view('frontend.curricular');
+
+    }
+
+    public function calender()
+    {
+        return view('frontend.calender');
+
+    }
+
+
     public function results($type = 'primary')
     {
         $data = $type == 'primary' ? primaryResults() : secondaryResults();

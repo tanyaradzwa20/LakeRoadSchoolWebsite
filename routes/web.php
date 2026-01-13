@@ -79,4 +79,7 @@ Route::controller(FrontendController::class)->group(function (){
     Route::get('/gallery/{type?}', 'gallery')->name('gallery');
     Route::get('/gec/{type?}', 'gec')->name('gec');
     Route::get('/counselling', 'counselling')->name('counselling');
+    Route::get('/alumni', 'alumni')->name('alumni');
+    Route::get('/calender', 'calender')->name('calender');
+    Route::get('/curricular', 'curricular')->name('curricular');
 });

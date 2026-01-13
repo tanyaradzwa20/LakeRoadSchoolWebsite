@@ -171,6 +171,108 @@
     </section>
     <!-- mission end-->
 
+    <!-- team -->
+    <section class="rts__section rts-section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="rts__section--wrapper sc flex-md-row flex-wrap align-items-md-center">
+                    <div class="rts__section--wrapper--left">
+                        <h6 class="rts__section--subheading">
+                            <img src="{{asset('assets/images/icon/about-sc.svg')}}" alt=""> Teacher
+                        </h6>
+                        <h2 class="rts__section--title text-capitalize mb-0">The School Management Structure</h2>
+                    </div>
+                    <div class="rts__section--link">
+                        <a href="{{ route('teachers',['primary']) }}" class="rts-nbg-btn btn-arrow">View All Staff<span><i class="fa-sharp fa-regular fa-arrow-right"></i>
+                        </span></a>
+                    </div>
+                </div>
+            </div>
+            <!-- team member area -->
+            <div class="row g-5">
+                <!-- single team -->
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="rts__single--member">
+                        <div class="rts__single--member--thumb rounded-10">
+                            <a href="#">
+                                <img src="{{asset('assets/images/speaker/chilando-chella-school-manager.jpg')}}" alt="Mr. Chilando Chella - School Manager">
+                            </a>
+                        </div>
+                        <div class="rts__single--member--meta">
+                            <h5 class="rts__single--member--meta--title">
+                                <a href="#">Mr. Chilando Chella</a>
+                            </h5>
+                            <span class="rts__single--member--meta--designation">
+                                School Manager
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <!-- single team end -->
+                <!-- single team -->
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="rts__single--member">
+                        <div class="rts__single--member--thumb rounded-10">
+                            <a href="#">
+                                <img src="{{asset('assets/images/speaker/esther-mukando-head-teacher-primary.jpg')}}" alt="Mrs. Esther Mukando - Head Teacher Primary School">
+                            </a>
+                        </div>
+                        <div class="rts__single--member--meta">
+                            <h5 class="rts__single--member--meta--title">
+                                <a href="#">Mrs. Esther Mukando</a>
+                            </h5>
+                            <span class="rts__single--member--meta--designation">
+                                Head Teacher<br>Primary School
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <!-- single team end -->
+                <!-- single team -->
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="rts__single--member">
+                        <div class="rts__single--member--thumb rounded-10">
+                            <a href="#">
+                                <img src="{{asset('assets/images/speaker/dimuna-michelo-head-teacher-secondary.jpg')}}" alt="Mrs. Dimuna Michelo - Head Teacher Secondary School">
+                            </a>
+                        </div>
+                        <div class="rts__single--member--meta">
+                            <h5 class="rts__single--member--meta--title">
+                                <a href="#">Mrs. Dimuna Michelo</a>
+                            </h5>
+                            <span class="rts__single--member--meta--designation">
+                                Head Teacher<br>Secondary School
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <!-- single team end -->
+                <!-- single team -->
+                {{--                <div class="col-lg-3 col-md-6 col-sm-6">--}}
+                {{--                    <div class="rts__single--member">--}}
+                {{--                        <div class="rts__single--member--thumb rounded-10">--}}
+                {{--                            <a href="#">--}}
+                {{--                                <img src="{{asset('assets/images/speaker/nswana-koloko-school-accountant.png')}}" alt="Mr. Nswana Koloko - School Accountant">--}}
+                {{--                            </a>--}}
+                {{--                        </div>--}}
+                {{--                        <div class="rts__single--member--meta">--}}
+                {{--                            <h5 class="rts__single--member--meta--title">--}}
+                {{--                                <a href="#">Mr. Nswana Koloko</a>--}}
+                {{--                            </h5>--}}
+                {{--                            <span class="rts__single--member--meta--designation">--}}
+                {{--                                School Accountant--}}
+                {{--                            </span>--}}
+                {{--                        </div>--}}
+                {{--                    </div>--}}
+                {{--                </div>--}}
+                <!-- single team end -->
+            </div>
+            <!-- team member area end -->
+        </div>
+    </section>
+    <!-- team end -->
+
+
   <x-campus-tour/>
 
 </x-app>

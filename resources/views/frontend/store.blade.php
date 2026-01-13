@@ -69,7 +69,7 @@
                                     [
                                         'name' => 'School Blazer (Primary)',
                                         'price' => 'K450.00',
-                                        'image' => 'https://images.unsplash.com/photo-1594608661623-aa0bd3a69d98?q=80&w=400&h=500&auto=format&fit=crop',
+                                        'image' => '1.png',
                                         'category' => 'Uniforms',
                                         'badge' => 'New',
                                         'stock' => 15
@@ -77,7 +77,7 @@
                                     [
                                         'name' => 'School Tie',
                                         'price' => 'K85.00',
-                                        'image' => 'https://images.unsplash.com/photo-1589756823851-4116746adde2?q=80&w=400&h=500&auto=format&fit=crop',
+                                        'image' => '4.png',
                                         'category' => 'Uniforms',
                                         'badge' => '',
                                         'stock' => 50
@@ -85,7 +85,7 @@
                                     [
                                         'name' => 'V-Neck Sweater',
                                         'price' => 'K220.00',
-                                        'image' => 'https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?q=80&w=400&h=500&auto=format&fit=crop',
+                                        'image' => '7.png',
                                         'category' => 'Uniforms',
                                         'badge' => '',
                                         'stock' => 25
@@ -93,7 +93,7 @@
                                     [
                                         'name' => 'White School Shirt',
                                         'price' => 'K150.00',
-                                        'image' => 'https://images.unsplash.com/photo-1621072156002-e2fcced0b170?q=80&w=400&h=500&auto=format&fit=crop',
+                                        'image' => '2.png',
                                         'category' => 'Uniforms',
                                         'badge' => '',
                                         'stock' => 40
@@ -101,7 +101,7 @@
                                     [
                                         'name' => 'Sports Jersey',
                                         'price' => 'K180.00',
-                                        'image' => 'https://images.unsplash.com/photo-1580087444075-413436c6550c?q=80&w=400&h=500&auto=format&fit=crop',
+                                        'image' => '5.png',
                                         'category' => 'Sports Wear',
                                         'badge' => 'Sale',
                                         'stock' => 12
@@ -109,7 +109,7 @@
                                     [
                                         'name' => 'School Bag (LRTPS)',
                                         'price' => 'K350.00',
-                                        'image' => 'https://images.unsplash.com/photo-1553062407-98eeb64c6a62?q=80&w=400&h=500&auto=format&fit=crop',
+                                        'image' => '8.png',
                                         'category' => 'Academic Items',
                                         'badge' => '',
                                         'stock' => 20
@@ -117,7 +117,7 @@
                                     [
                                         'name' => 'Scientific Calculator',
                                         'price' => 'K250.00',
-                                        'image' => 'https://images.unsplash.com/photo-1574607383476-f517f220d35a?q=80&w=400&h=500&auto=format&fit=crop',
+                                        'image' => '3.png',
                                         'category' => 'Academic Items',
                                         'badge' => '',
                                         'stock' => 10
@@ -125,7 +125,7 @@
                                     [
                                         'name' => 'Geometry Set',
                                         'price' => 'K75.00',
-                                        'image' => 'https://images.unsplash.com/photo-1523275335684-37898b6baf30?q=80&w=400&h=500&auto=format&fit=crop',
+                                        'image' => '6.png',
                                         'category' => 'Academic Items',
                                         'badge' => '',
                                         'stock' => 30
@@ -133,7 +133,7 @@
                                     [
                                         'name' => 'School Tracksuit',
                                         'price' => 'K400.00',
-                                        'image' => 'https://images.unsplash.com/photo-1444491741275-3747c53c99b4?q=80&w=400&h=500&auto=format&fit=crop',
+                                        'image' => '9.png',
                                         'category' => 'Sports Wear',
                                         'badge' => '',
                                         'stock' => 8
@@ -148,7 +148,7 @@
                                         $productId = strtolower(str_replace([' ', '(', ')'], ['-', '', ''], $product['name']));
                                     @endphp
                                     <div class="product-image">
-                                        <a href="#"><img src="{{ asset($product['image']) }}" alt="product"></a>
+                                        <a href="#"><img src="{{ asset('assets/images/store/'.$product['image']) }}" alt="product"></a>
                                         @if($product['badge'])
                                             <span class="badge">{{ $product['badge'] }}</span>
                                         @endif
@@ -157,7 +157,7 @@
                                                data-id="{{ $productId }}"
                                                data-name="{{ $product['name'] }}"
                                                data-price="{{ $product['price'] }}"
-                                               data-image="{{ asset($product['image']) }}">
+                                               data-image="{{ asset('assets/images/store/'.$product['image']) }}">
                                                 <i class="fa-regular fa-cart-shopping"></i>
                                             </a>
                                             <a href="#" class="action-btn"><i class="fa-regular fa-heart"></i></a>

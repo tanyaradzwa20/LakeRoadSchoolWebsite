@@ -19,7 +19,18 @@
                 <!-- single slider -->
                 <div class="swiper-slide">
                     <div class="rts-slider-height rts-slider-overlay rt-relative ">
-                        <div class="rts-slider-bg" data-bgimage="url({{asset('assets/images/banner/hero1.jpg')}})"></div>
+                       <div class="rts-slider-bg">
+                           <video
+                               autoplay
+                               muted
+                               loop
+                               playsinline
+                               style="width:100%; height:100%; object-fit:cover;"
+                           >
+                               <source src="{{ asset('assets/video/lakeroad.mp4') }}" type="video/mp4">
+                           </video>
+
+                       </div>
                         <div class="container">
                             <div class="row justify-content-center">
                                 <div class="col-lg-10 col-xl-10 col-md-10 col-sm-12">
@@ -33,59 +44,7 @@
                                                 Providing quality education and fostering excellence in every child. A perfect place for the education of any child.
                                             </p>
                                             <div class="rts-slider-btn">
-                                                <a href="{{ route('primary-school') }}" class="rts-theme-btn btn-arrow">View Our Program <span><i class="fa-thin fa-arrow-right"></i></span></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- single slider -->
-                <div class="swiper-slide">
-                    <div class="rts-slider-height rts-slider-overlay rt-relative ">
-                        <div class="rts-slider-bg" data-bgimage="url({{asset('assets/images/banner/hero2.jpg')}})"></div>
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-10 col-xl-10 col-md-10 col-sm-12">
-                                    <div class="rts-slider">
-                                        <div class="rts-slider-content">
-                                            <h6 class="rts-subtitle"><img src="{{asset('assets/images/icon/e-cap.svg')}}" alt="education hat"> A perfect place for the education of any child</h6>
-                                            <h1 class="rts-slider-title">
-                                                Welcome to Lake Road PTA School
-                                            </h1>
-                                            <p class="rts-slider-desc">
-                                                Providing quality education and fostering excellence in every child. A perfect place for the education of any child.
-                                            </p>
-                                            <div class="rts-slider-btn">
-                                                <a href="{{ route('primary-school') }}" class="rts-theme-btn btn-arrow">View Our Program <span><i class="fa-thin fa-arrow-right"></i></span></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- single slider -->
-                <div class="swiper-slide">
-                    <div class="rts-slider-height rts-slider-overlay rt-relative ">
-                        <div class="rts-slider-bg" data-bgimage="url({{asset('assets/images/banner/hero3.jpg')}})"></div>
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-10 col-xl-10 col-md-10 col-sm-12">
-                                    <div class="rts-slider">
-                                        <div class="rts-slider-content">
-                                            <h6 class="rts-subtitle"><img src="{{asset('assets/images/icon/e-cap.svg')}}" alt="education hat"> A perfect place for the education of any child</h6>
-                                            <h1 class="rts-slider-title">
-                                                Welcome to Lake Road PTA School
-                                            </h1>
-                                            <p class="rts-slider-desc">
-                                                Providing quality education and fostering excellence in every child. A perfect place for the education of any child.
-                                            </p>
-                                            <div class="rts-slider-btn">
-                                                <a href="{{ route('primary-school') }}" class="rts-theme-btn btn-arrow">View Our Program <span><i class="fa-thin fa-arrow-right"></i></span></a>
+                                                <a href="{{ route('about') }}" class="rts-theme-btn btn-arrow">View Our Program <span><i class="fa-thin fa-arrow-right"></i></span></a>
                                             </div>
                                         </div>
                                     </div>
@@ -233,106 +192,6 @@
     </section>
     <!-- academy start end -->
 
-    <!-- team -->
-    <section class="rts__section rts-section-padding">
-        <div class="container">
-            <div class="row">
-                <div class="rts__section--wrapper sc flex-md-row flex-wrap align-items-md-center">
-                    <div class="rts__section--wrapper--left">
-                        <h6 class="rts__section--subheading">
-                            <img src="{{asset('assets/images/icon/about-sc.svg')}}" alt=""> Teacher
-                        </h6>
-                        <h2 class="rts__section--title text-capitalize mb-0">The School Management Structure</h2>
-                    </div>
-                    <div class="rts__section--link">
-                        <a href="#" class="rts-nbg-btn btn-arrow">View All Staff<span><i class="fa-sharp fa-regular fa-arrow-right"></i>
-                        </span></a>
-                    </div>
-                </div>
-            </div>
-            <!-- team member area -->
-            <div class="row g-5">
-                <!-- single team -->
-                <div class="col-lg-3 col-md-6 col-sm-6">
-                    <div class="rts__single--member">
-                        <div class="rts__single--member--thumb rounded-10">
-                            <a href="#">
-                                <img src="{{asset('assets/images/speaker/chilando-chella-school-manager.jpg')}}" alt="Mr. Chilando Chella - School Manager">
-                            </a>
-                        </div>
-                        <div class="rts__single--member--meta">
-                            <h5 class="rts__single--member--meta--title">
-                                <a href="#">Mr. Chilando Chella</a>
-                            </h5>
-                            <span class="rts__single--member--meta--designation">
-                                School Manager
-                            </span>
-                        </div>
-                    </div>
-                </div>
-                <!-- single team end -->
-                <!-- single team -->
-                <div class="col-lg-3 col-md-6 col-sm-6">
-                    <div class="rts__single--member">
-                        <div class="rts__single--member--thumb rounded-10">
-                            <a href="#">
-                                <img src="{{asset('assets/images/speaker/esther-mukando-head-teacher-primary.jpg')}}" alt="Mrs. Esther Mukando - Head Teacher Primary School">
-                            </a>
-                        </div>
-                        <div class="rts__single--member--meta">
-                            <h5 class="rts__single--member--meta--title">
-                                <a href="#">Mrs. Esther Mukando</a>
-                            </h5>
-                            <span class="rts__single--member--meta--designation">
-                                Head Teacher<br>Primary School
-                            </span>
-                        </div>
-                    </div>
-                </div>
-                <!-- single team end -->
-                <!-- single team -->
-                <div class="col-lg-3 col-md-6 col-sm-6">
-                    <div class="rts__single--member">
-                        <div class="rts__single--member--thumb rounded-10">
-                            <a href="#">
-                                <img src="{{asset('assets/images/speaker/dimuna-michelo-head-teacher-secondary.jpg')}}" alt="Mrs. Dimuna Michelo - Head Teacher Secondary School">
-                            </a>
-                        </div>
-                        <div class="rts__single--member--meta">
-                            <h5 class="rts__single--member--meta--title">
-                                <a href="#">Mrs. Dimuna Michelo</a>
-                            </h5>
-                            <span class="rts__single--member--meta--designation">
-                                Head Teacher<br>Secondary School
-                            </span>
-                        </div>
-                    </div>
-                </div>
-                <!-- single team end -->
-                <!-- single team -->
-                <div class="col-lg-3 col-md-6 col-sm-6">
-                    <div class="rts__single--member">
-                        <div class="rts__single--member--thumb rounded-10">
-                            <a href="#">
-                                <img src="{{asset('assets/images/speaker/nswana-koloko-school-accountant.png')}}" alt="Mr. Nswana Koloko - School Accountant">
-                            </a>
-                        </div>
-                        <div class="rts__single--member--meta">
-                            <h5 class="rts__single--member--meta--title">
-                                <a href="#">Mr. Nswana Koloko</a>
-                            </h5>
-                            <span class="rts__single--member--meta--designation">
-                                School Accountant
-                            </span>
-                        </div>
-                    </div>
-                </div>
-                <!-- single team end -->
-            </div>
-            <!-- team member area end -->
-        </div>
-    </section>
-    <!-- team end -->
     <!-- apply start -->
     <section class="rts-application-area moving rts-section-padding v_1 admission__bg">
         <div class="container">
