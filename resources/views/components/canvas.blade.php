@@ -15,7 +15,7 @@
             <div class="offcanvase__banner mt--50">
                 <div class="offcanvase__banner--content">
                     <img src="{{asset('assets/images/offcanvase.jpg')}}" alt="offcanvase">
-                    <a href="{{ route('admission') }}" class="rts-theme-btn">Apply Now</a>
+                    <a href="{{ route('about') }}" class="rts-theme-btn">Apply Now</a>
                 </div>
             </div>
             <div class="offcanvase__info">

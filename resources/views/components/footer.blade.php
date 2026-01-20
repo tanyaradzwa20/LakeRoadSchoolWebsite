@@ -28,10 +28,10 @@
                     <h6 class="footer__widget--title">Our Campus</h6>
                     <div class="footer__widget--menu">
                         <ul class="list-unstyled">
-                            <li><a href="{{ route('academic') }}">Academic</a></li>
-                            <li><a href="{{ route('campus-life') }}">Campus Life</a></li>
+                            <li><a href="{{ route('about') }}">about</a></li>
+                            <li><a href="{{ route('about') }}">Campus Life</a></li>
                             <li><a href="{{ route('about') }}">About Us</a></li>
-                            <li><a href="{{ route('faculty') }}">Faculty</a></li>
+                            <li><a href="{{ route('about') }}">about</a></li>
                         </ul>
                     </div>
                 </div>
@@ -41,11 +41,11 @@
                     <h6 class="footer__widget--title">Information</h6>
                     <div class="footer__widget--menu">
                         <ul class="list-unstyled">
-                            <li><a href="{{ route('admission') }}">Admission</a></li>
-                            <li><a href="{{ route('tution-fee') }}">Tuition Fees</a></li>
-                            <li><a href="{{ route('results') }}">Academic Results</a></li>
-                            <li><a href="{{ route('sen') }}">Special Needs (SEN)</a></li>
-                            <li><a href="{{ route('circulars') }}">Circulars</a></li>
+                            <li><a href="#}">Admission</a></li>
+                            <li><a href="#">Tuition Fees</a></li>
+                            <li><a href="#">about Results</a></li>
+                            <li><a href="#">Special Needs (SEN)</a></li>
+                            <li><a href="#">Circulars</a></li>
                         </ul>
                     </div>
                 </div>

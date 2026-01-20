@@ -148,7 +148,7 @@
                             <img src="{{asset('assets/images/academy/primary-students-lake-road-school.jpg')}}" alt="Primary Students at Lake Road PTA School">
                         </div>
                         <div class="academy__single__meta">
-                            <a href="{{ route('primary-school') }}">
+                            <a href="{{ route('curriculum',['primary']) }}">
                                 <h4 class="academy__single__title">Primary Student</h4>
                             </a>
                             <p class="academy__single__description">Explore the engaging events and activities we offer for children.</p>
@@ -163,7 +163,7 @@
                             <img src="{{asset('assets/images/academy/secondary-students-lake-road-school.jpg')}}" alt="Secondary Students at Lake Road PTA School">
                         </div>
                         <div class="academy__single__meta">
-                            <a href="{{ route('senior-school') }}">
+                            <a href="{{ route('curriculum',['secondary']) }}">
                                 <h4 class="academy__single__title">Secondary Student</h4>
                             </a>
                             <p class="academy__single__description">Explore the engaging events and activities we offer for children.</p>

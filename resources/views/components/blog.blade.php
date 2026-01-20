@@ -23,12 +23,12 @@
             <div class="col-md-11 col-lg-6">
                 <div class="rts-blog-post blog-v-full sc__version">
                     <div class="single-blog-post">
-                        <a href="{{ route('blog-details') }}" class="blog-thumb">
+                        <a href="#" class="blog-thumb">
                             <img src="{{asset('assets/images/blog/lake-road-school-blog-1.jpg')}}" alt="Lake Road PTA School Activities">
                         </a>
                         <div class="blog-content">
                             <a href="#" class="category_link">School Activities</a>
-                            <a href="{{ route('blog-details') }}" class="post-title">
+                            <a href="#" class="post-title">
                                 Sustainable Schools: Teaching Kids to Care for the Environment
                             </a>
                             <div class="post-meta">
@@ -48,13 +48,13 @@
                     <!-- single blog -->
                     <div class="single-blog-post">
                         <div class="blog-thumb">
-                            <a href="{{ route('blog-details') }}">
+                            <a href="#">
                                 <img src="{{asset('assets/images/blog/lake-road-school-blog-2.jpg')}}" alt="Lake Road PTA School Primary">
                             </a>
                         </div>
                         <div class="blog-content">
                             <a href="#" class="category_link">Primary</a>
-                            <a href="{{ route('blog-details') }}" class="post-title">
+                            <a href="#" class="post-title">
                                 Parent's Guide to Helping Kids with Homework
                             </a>
                             <div class="post-meta">
@@ -70,13 +70,13 @@
                     <!-- single blog -->
                     <div class="single-blog-post">
                         <div class="blog-thumb">
-                            <a href="{{ route('blog-details') }}">
+                            <a href="#">
                                 <img src="{{asset('assets/images/blog/lake-road-school-blog-3.jpg')}}" alt="Lake Road PTA School STEM Education">
                             </a>
                         </div>
                         <div class="blog-content">
                             <a href="#" class="category_link">Pre-Primary</a>
-                            <a href="{{ route('blog-details') }}" class="post-title">
+                            <a href="#" class="post-title">
                                 STEM Education: Shaping the Future Innovators
                             </a>
                             <div class="post-meta">
