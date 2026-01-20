@@ -76,7 +76,7 @@
                         <p>
                             The School is the educational home to 840 pupils from nursery through to the twelfth grade and 95 staff members. Our website gives you a glimpse of the daily life at Lake Road PTA School.
                         </p>
-                        <a href="{{ route('primary-school') }}" class="rts-nbg-btn btn-arrow">Learn More<span><i class="fa-sharp fa-regular fa-arrow-right"></i>
+                        <a href="{{ route('about') }}" class="rts-nbg-btn btn-arrow">Learn More<span><i class="fa-sharp fa-regular fa-arrow-right"></i>
                         </span></a>
                     </div>
                 </div>
@@ -291,10 +291,10 @@
                         <h6 class="rts__section--subheading">
                             <img src="{{asset('assets/images/icon/about-sc.svg')}}" alt=""> Gallery
                         </h6>
-                        <h2 class="rts__section--title text-capitalize mb-0">School Gallery</h2>
+{{--                        <h2 class="rts__section--title text-capitalize mb-0">School Gallery</h2>--}}
                     </div>
                     <div class="rts__section--link">
-                        <a href="#" class="rts-nbg-btn btn-arrow">View All Gallery<span><i class="fa-sharp fa-regular fa-arrow-right"></i>
+                        <a href="{{route('gallery',['primary'])}}" class="rts-nbg-btn btn-arrow">View All <span><i class="fa-sharp fa-regular fa-arrow-right"></i>
                         </span></a>
                     </div>
                 </div>
@@ -355,7 +355,7 @@
                 <div class="col-lg-5">
                     <div class="rts__section--wrapper v__4 d-inline sc__version  mb-md-0">
                         <h6 class="rts__section--subheading">
-                            <img src="{{asset('assets/images/icon/about-sc.svg')}}" alt=""> Gallery
+{{--                            <img src="{{asset('assets/images/icon/about-sc.svg')}}" alt=""> Students--}}
                         </h6>
                         <h2 class="rts__section--title">Student Feedback</h2>
                         <p class="rts__section--description">Your opinion matters, and by providing feedback, you contribute to the continuous enhancement of our academic programs, support services, and campus life</p>

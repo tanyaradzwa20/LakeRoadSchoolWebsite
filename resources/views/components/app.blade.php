@@ -162,6 +162,7 @@
 
 {{--@include($components . 'offcanvase-sc')--}}
     <x-footer/>
+<x-canvas/>
     <!-- Cart Drawer -->
     <div id="cart-drawer" class="cart-drawer">
         <div class="cart-drawer-header">

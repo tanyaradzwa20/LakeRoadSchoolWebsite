@@ -5,11 +5,11 @@
             <div class="col-md-11 col-lg-12">
                 <div class="rts-section rts-border-bottom-1 mb--50 pb--20 sc__version">
                     <div>
-                        <h6 class="rts__section--subheading">
-                            <img src="{{asset('assets/images/icon/about-sc.svg')}}" alt=""> Gallery
-                        </h6>
+{{--                        <h6 class="rts__section--subheading">--}}
+{{--                            <img src="{{asset('assets/images/icon/about-sc.svg')}}" alt=""> Gallery--}}
+{{--                        </h6>--}}
                         <h2 class="rts-section-title text-capitalize">
-                            Latest Blogs
+                             Blog
                         </h2>
                     </div>
                     <p class="rts-section-description">Whether you’re considering a foundation course or an undergraduate academics is a place.</p>
