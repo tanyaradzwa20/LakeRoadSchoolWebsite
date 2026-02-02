@@ -135,7 +135,7 @@
                                         'price' => 'K400.00',
                                         'image' => '9.png',
                                         'category' => 'Sports Wear',
-                                        'badge' => '',
+                                        'badge' => '23',
                                         'stock' => 8
                                     ],
                                 ];

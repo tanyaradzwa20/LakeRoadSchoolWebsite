@@ -20,7 +20,7 @@
             <div class="row g-5 justify-content-md-center justify-content-start">
                 <div class="col-lg-7 col-xl-8 col-md-11">
                     <div class="rts-about-section">
-                        <img src="{{asset('assets/images/about/about-01.jpg')}}" alt="">
+                        <img src="{{asset('assets/images/new/about1.jpg')}}" alt="">
                     </div>
                 </div>
                 <div class="col-lg-5 col-xl-4 col-md-11">
@@ -36,7 +36,7 @@
                         </div>
                         <div class="single-about-info">
                             <div class="content">
-                                <h3 class="title">16,214</h3>
+                                <h3 class="title">214</h3>
                                 <img src="{{asset('assets/images/icon/12.svg')}}" alt="">
                             </div>
                             <div class="desc">

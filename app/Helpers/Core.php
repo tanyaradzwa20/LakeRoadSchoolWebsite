@@ -1550,6 +1550,34 @@ function primarySEN()
 
 function galleryData()
 {
+    $data=[];
+    for($i=1;$i<=2;$i++){
+        $data[]= [
+            'category' => 'campus',
+            'category_name' => 'Campus',
+            'image' => "cp$i.jpg",
+            'title' => 'School Campus'
+        ];
+    }
+    for($i=1;$i<=8;$i++){
+        $data[]= [
+            'category' => 'students',
+            'category_name' => 'Students',
+            'image' => "st$i.jpg",
+            'title' => 'Primary Students'
+        ];
+    }
+    for($i=1;$i<=4;$i++){
+        $data[]= [
+            'category' => 'events',
+            'category_name' => 'Events',
+            'image' =>"ev$i.jpg",
+            'title' => 'School Event'
+        ];
+    }
+    return $data;
+
+
     return [
         [
             'category' => 'campus',

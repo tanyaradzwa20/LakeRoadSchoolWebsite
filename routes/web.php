@@ -1,6 +1,9 @@
 <?php
 
+use App\Http\Controllers\CategoryController;
 use App\Http\Controllers\FrontendController;
+use App\Http\Controllers\ProductController;
+use App\Http\Controllers\SaleController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PageController;
 use Illuminate\Support\Facades\URL;
@@ -76,10 +79,20 @@ Route::controller(FrontendController::class)->group(function (){
     Route::get('/results/{type?}', 'results')->name('results');
     Route::get('/sen/{type?}', 'sen')->name('sen');
     Route::get('/teachers/{type?}', 'teachers')->name('teachers');
-    Route::get('/gallery/{type?}', 'gallery')->name('gallery');
+    Route::get('/gallery', 'gallery')->name('gallery');
     Route::get('/gec/{type?}', 'gec')->name('gec');
     Route::get('/counselling', 'counselling')->name('counselling');
     Route::get('/alumni', 'alumni')->name('alumni');
     Route::get('/calender', 'calender')->name('calender');
     Route::get('/curricular', 'curricular')->name('curricular');
 });
+
+
+Route::resource('categories', CategoryController::class);
+Route::resource('products', ProductController::class);
+Route::get('sales', [SaleController::class, 'index'])->name('sales.index');
+Route::get('sales/{sale}', [SaleController::class, 'show'])->name('sales.show');
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

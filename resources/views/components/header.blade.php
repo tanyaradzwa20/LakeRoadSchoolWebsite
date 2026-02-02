@@ -49,7 +49,7 @@
                                                 <a href="{{ route('about') }}" class="navigation__menu--item__link">About</a>
                                             </li>
                                             <li class="navigation__menu--item has-child has-arrow">
-                                                <a href="#" class="navigation__menu--item__link">Primary School</a>
+                                                <a href="#" class="navigation__menu--item__link">Primary </a>
                                                 <ul class="submenu sub__style">
                                                     <li><a href="{{route('curriculum',['primary'])}}">Curriculum</a>
                                                     </li>
@@ -62,11 +62,10 @@
                                                     {{--                                                           <li><a href="#">Calendar</a></li>--}}
                                                     <li><a href="{{route('teachers',['primary'])}}">Teachers</a></li>
                                                     <li><a href="{{route('counselling')}}">Counselling</a></li>
-                                                    <li><a href="{{route('gallery',['primary'])}}">Gallery</a></li>
                                                 </ul>
                                             </li>
                                             <li class="navigation__menu--item has-child has-arrow">
-                                                <a href="#" class="navigation__menu--item__link">Secondary School</a>
+                                                <a href="#" class="navigation__menu--item__link">Secondary </a>
                                                 <ul class="submenu sub__style">
                                                     <li><a href="{{route('curriculum',['secondary'])}}">Curriculum</a>
                                                     </li>
@@ -80,12 +79,15 @@
                                                     <li><a href="{{route('sen',['secondary'])}}">SEN</a></li>
                                                     <li><a href="{{route('teachers',['secondary'])}}">Teachers</a></li>
                                                     <li><a href="{{route('counselling')}}">Counselling</a></li>
-                                                    <li><a href="{{route('gallery',['secondary'])}}">Gallery</a></li>
                                                 </ul>
                                             </li>
                                             <li class="navigation__menu--item">
                                                 <a href="{{ route('store') }}" class="navigation__menu--item__link">Store</a>
                                             </li>
+
+                                            <li class="navigation__menu--item">
+                                                <a href="{{route('gallery')}}" class="navigation__menu--item__link">Gallery</a>
+                                                </li>
                                             <li class="navigation__menu--item">
                                                 <a href="{{ route('alumni') }}" class="navigation__menu--item__link">Alumni</a>
                                             </li>

@@ -22,8 +22,8 @@
                     <div class="col-lg-4 col-md-6 col-sm-12 grid-item {{ $item['category'] }}">
                         <div class="rts-single-gallery">
                             <div class="gallery-image">
-                                <a href="{{ asset('assets/images/about/' . $item['image']) }}">
-                                    <img src="{{ asset('assets/images/about/' . $item['image']) }}" alt="{{ $item['title'] }}">
+                                <a href="{{ asset('assets/images/gallery/' . $item['image']) }}">
+                                    <img src="{{ asset('assets/images/gallery/' . $item['image']) }}" alt="{{ $item['title'] }}">
                                     <span class="view-btn">
                                         <i class="far fa-plus"></i>
                                     </span>
