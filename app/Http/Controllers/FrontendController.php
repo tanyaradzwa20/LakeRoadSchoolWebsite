@@ -19,7 +19,8 @@ class FrontendController extends Controller
         return view('frontend.contact', compact('data'));
     }
     public function store(){
-        return view('frontend.store');
+        $products = getProducts();
+        return view('frontend.store', compact('products'));
     }
 
     public function curriculum($type = 'primary'){

@@ -64,82 +64,7 @@
                         </div>
 
                         <div class="row g-5">
-                            @php
-                                $products = [
-                                    [
-                                        'name' => 'School Blazer (Primary)',
-                                        'price' => 'K450.00',
-                                        'image' => '1.png',
-                                        'category' => 'Uniforms',
-                                        'badge' => 'New',
-                                        'stock' => 15
-                                    ],
-                                    [
-                                        'name' => 'School Tie',
-                                        'price' => 'K85.00',
-                                        'image' => '4.png',
-                                        'category' => 'Uniforms',
-                                        'badge' => '',
-                                        'stock' => 50
-                                    ],
-                                    [
-                                        'name' => 'V-Neck Sweater',
-                                        'price' => 'K220.00',
-                                        'image' => '7.png',
-                                        'category' => 'Uniforms',
-                                        'badge' => '',
-                                        'stock' => 25
-                                    ],
-                                    [
-                                        'name' => 'White School Shirt',
-                                        'price' => 'K150.00',
-                                        'image' => '2.png',
-                                        'category' => 'Uniforms',
-                                        'badge' => '',
-                                        'stock' => 40
-                                    ],
-                                    [
-                                        'name' => 'Sports Jersey',
-                                        'price' => 'K180.00',
-                                        'image' => '5.png',
-                                        'category' => 'Sports Wear',
-                                        'badge' => 'Sale',
-                                        'stock' => 12
-                                    ],
-                                    [
-                                        'name' => 'School Bag (LRTPS)',
-                                        'price' => 'K350.00',
-                                        'image' => '8.png',
-                                        'category' => 'Academic Items',
-                                        'badge' => '',
-                                        'stock' => 20
-                                    ],
-                                    [
-                                        'name' => 'Scientific Calculator',
-                                        'price' => 'K250.00',
-                                        'image' => '3.png',
-                                        'category' => 'Academic Items',
-                                        'badge' => '',
-                                        'stock' => 10
-                                    ],
-                                    [
-                                        'name' => 'Geometry Set',
-                                        'price' => 'K75.00',
-                                        'image' => '6.png',
-                                        'category' => 'Academic Items',
-                                        'badge' => '',
-                                        'stock' => 30
-                                    ],
-                                    [
-                                        'name' => 'School Tracksuit',
-                                        'price' => 'K400.00',
-                                        'image' => '9.png',
-                                        'category' => 'Sports Wear',
-                                        'badge' => '23',
-                                        'stock' => 8
-                                    ],
-                                ];
-                            @endphp
+
 
                             @foreach($products as $product)
                             <div class="col-lg-4 col-md-6 col-sm-6">
@@ -169,7 +94,7 @@
                                         <a href="#"><h5 class="title">{{ $product['name'] }}</h5></a>
                                         <div class="price-area">
                                             <span class="price">{{ $product['price'] }}</span>
-                                            <span class="stock-amount">({{ $product['stock'] }} in stock)</span>
+{{--                                            <span class="stock-amount">({{ $product['stock'] }} in stock)</span>--}}
                                         </div>
                                     </div>
                                 </div>
